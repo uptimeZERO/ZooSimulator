@@ -16,5 +16,55 @@ namespace Zoo_Simulator
         {
             InitializeComponent();
         }
+
+        private void frmZooSimulator_Load(object sender, EventArgs e)
+        {
+            // unused
+        }
+
+        private void PnlMonkey3_Paint(object sender, PaintEventArgs e)
+        {
+            // unused
+        }
+
+        private void Label11_Click(object sender, EventArgs e)
+        {
+            // unused
+        }
+
+        private void Label12_Click(object sender, EventArgs e)
+        {
+            // unused
+        }
+
+        private void Label14_Click(object sender, EventArgs e)
+        {
+            // unused
+        }
+
+        private void LblGiraffeStatus5_Click(object sender, EventArgs e)
+        {
+            // unused
+        }
+
+        private void LblGiraffeStatus3_Click(object sender, EventArgs e)
+        {
+            // unused
+        }
+
+        private void PnlGiraffe2_Paint(object sender, PaintEventArgs e)
+        {
+            // unused
+        }
+
+        private void PnlGiraffe5_Paint(object sender, PaintEventArgs e)
+        {
+            // unused
+        }
+
+        private void Label3_Click(object sender, EventArgs e)
+        {
+            // unused
+        }
     }
 }
