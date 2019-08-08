@@ -38,101 +38,86 @@
             this.pnlMonkeyHeader = new System.Windows.Forms.Panel();
             this.pnlGiraffes = new System.Windows.Forms.Panel();
             this.pnlGiraffe5 = new System.Windows.Forms.Panel();
-            this.btnFeedGiraffe5 = new System.Windows.Forms.Button();
+            this.lblGiraffeHealth5 = new System.Windows.Forms.Label();
+            this.lblGiraffeStatus5 = new System.Windows.Forms.Label();
             this.lblGiraffe5 = new System.Windows.Forms.Label();
             this.pbrGiraffe5 = new System.Windows.Forms.ProgressBar();
             this.pnlGiraffe4 = new System.Windows.Forms.Panel();
-            this.btnFeedGiraffe4 = new System.Windows.Forms.Button();
+            this.lblGiraffeHealth4 = new System.Windows.Forms.Label();
+            this.lblGiraffeStatus4 = new System.Windows.Forms.Label();
             this.lblGiraffe4 = new System.Windows.Forms.Label();
             this.pbrGiraffe4 = new System.Windows.Forms.ProgressBar();
             this.pnlGiraffe3 = new System.Windows.Forms.Panel();
-            this.btnFeedGiraffe3 = new System.Windows.Forms.Button();
+            this.lblGiraffeHealth3 = new System.Windows.Forms.Label();
+            this.lblGiraffeStatus3 = new System.Windows.Forms.Label();
             this.lblGiraffe3 = new System.Windows.Forms.Label();
             this.pbrGiraffe3 = new System.Windows.Forms.ProgressBar();
             this.pnlGiraffe2 = new System.Windows.Forms.Panel();
-            this.btnFeedGiraffe2 = new System.Windows.Forms.Button();
+            this.lblGiraffeHealth2 = new System.Windows.Forms.Label();
+            this.lblGiraffeStatus2 = new System.Windows.Forms.Label();
             this.lblGiraffe2 = new System.Windows.Forms.Label();
             this.pbrGiraffe2 = new System.Windows.Forms.ProgressBar();
             this.pnlGiraffe1 = new System.Windows.Forms.Panel();
-            this.btnFeedGiraffe1 = new System.Windows.Forms.Button();
+            this.lblGiraffeHealth1 = new System.Windows.Forms.Label();
+            this.lblGiraffeStatus1 = new System.Windows.Forms.Label();
             this.lblGiraffe1 = new System.Windows.Forms.Label();
             this.pbrGiraffe1 = new System.Windows.Forms.ProgressBar();
             this.pnlElephants = new System.Windows.Forms.Panel();
             this.pnlElephant5 = new System.Windows.Forms.Panel();
-            this.btnFeedElephant5 = new System.Windows.Forms.Button();
+            this.lblElephantHealth5 = new System.Windows.Forms.Label();
+            this.lblElephantStatus5 = new System.Windows.Forms.Label();
             this.lblElephant5 = new System.Windows.Forms.Label();
             this.pbrElephant5 = new System.Windows.Forms.ProgressBar();
             this.pnlElephant4 = new System.Windows.Forms.Panel();
-            this.btnFeedElephant4 = new System.Windows.Forms.Button();
+            this.lblElephantHealth4 = new System.Windows.Forms.Label();
+            this.lblElephantStatus4 = new System.Windows.Forms.Label();
             this.lblElephant4 = new System.Windows.Forms.Label();
             this.pbrElephant4 = new System.Windows.Forms.ProgressBar();
             this.pnlElephant3 = new System.Windows.Forms.Panel();
-            this.btnFeedElephant3 = new System.Windows.Forms.Button();
+            this.lblElephantHealth3 = new System.Windows.Forms.Label();
+            this.lblElephantStatus3 = new System.Windows.Forms.Label();
             this.lblElephant3 = new System.Windows.Forms.Label();
             this.pbrElephant3 = new System.Windows.Forms.ProgressBar();
             this.pnlElephant2 = new System.Windows.Forms.Panel();
-            this.btnFeedElephant2 = new System.Windows.Forms.Button();
+            this.lblElephantHealth2 = new System.Windows.Forms.Label();
+            this.lblElephantStatus2 = new System.Windows.Forms.Label();
             this.lblElephant2 = new System.Windows.Forms.Label();
             this.pbrElephant2 = new System.Windows.Forms.ProgressBar();
             this.pnlElephant1 = new System.Windows.Forms.Panel();
-            this.btnFeedElephant1 = new System.Windows.Forms.Button();
+            this.lblElephantHealth1 = new System.Windows.Forms.Label();
+            this.lblElephantStatus1 = new System.Windows.Forms.Label();
             this.lblElephant1 = new System.Windows.Forms.Label();
             this.pbrElephant1 = new System.Windows.Forms.ProgressBar();
             this.pnlMonkeys = new System.Windows.Forms.Panel();
             this.pnlMonkey5 = new System.Windows.Forms.Panel();
-            this.btnFeedMonkey5 = new System.Windows.Forms.Button();
+            this.lblMonkeyHealth5 = new System.Windows.Forms.Label();
+            this.lblMonkeyStatus5 = new System.Windows.Forms.Label();
             this.lblMonkey5 = new System.Windows.Forms.Label();
             this.pbrMonkey5 = new System.Windows.Forms.ProgressBar();
             this.pnlMonkey4 = new System.Windows.Forms.Panel();
-            this.btnFeedMonkey4 = new System.Windows.Forms.Button();
+            this.lblMonkeyHealth4 = new System.Windows.Forms.Label();
+            this.lblMonkeyStatus4 = new System.Windows.Forms.Label();
             this.lblMonkey4 = new System.Windows.Forms.Label();
             this.pbrMonkey4 = new System.Windows.Forms.ProgressBar();
             this.pnlMonkey3 = new System.Windows.Forms.Panel();
-            this.btnFeedMonkey3 = new System.Windows.Forms.Button();
+            this.lblMonkeyHealth3 = new System.Windows.Forms.Label();
+            this.lblMonkeyStatus3 = new System.Windows.Forms.Label();
             this.lblMonkey3 = new System.Windows.Forms.Label();
             this.pbrMonkey3 = new System.Windows.Forms.ProgressBar();
             this.pnlMonkey2 = new System.Windows.Forms.Panel();
-            this.btnFeedMonkey2 = new System.Windows.Forms.Button();
+            this.lblMonkeyHealth2 = new System.Windows.Forms.Label();
+            this.lblMonkeyStatus2 = new System.Windows.Forms.Label();
             this.lblMonkey2 = new System.Windows.Forms.Label();
             this.pbrMonkey2 = new System.Windows.Forms.ProgressBar();
             this.pnlMonkey1 = new System.Windows.Forms.Panel();
-            this.btnFeedMonkey1 = new System.Windows.Forms.Button();
+            this.lblMonkeyHealth1 = new System.Windows.Forms.Label();
+            this.lblMonkeyStatus1 = new System.Windows.Forms.Label();
             this.lblMonkey1 = new System.Windows.Forms.Label();
             this.pbrMonkey1 = new System.Windows.Forms.ProgressBar();
             this.lblAuthor = new System.Windows.Forms.Label();
             this.lblZooTime = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.tmrSimulationTimer = new System.Windows.Forms.Timer(this.components);
-            this.lblMonkeyStatus1 = new System.Windows.Forms.Label();
-            this.lblMonkeyStatus2 = new System.Windows.Forms.Label();
-            this.lblMonkeyStatus3 = new System.Windows.Forms.Label();
-            this.lblMonkeyStatus4 = new System.Windows.Forms.Label();
-            this.lblMonkeyStatus5 = new System.Windows.Forms.Label();
-            this.lblElephantStatus1 = new System.Windows.Forms.Label();
-            this.lblElephantStatus2 = new System.Windows.Forms.Label();
-            this.lblElephantStatus3 = new System.Windows.Forms.Label();
-            this.lblElephantStatus4 = new System.Windows.Forms.Label();
-            this.lblElephantStatus5 = new System.Windows.Forms.Label();
-            this.lblGiraffeStatus1 = new System.Windows.Forms.Label();
-            this.lblGiraffeStatus2 = new System.Windows.Forms.Label();
-            this.lblGiraffeStatus3 = new System.Windows.Forms.Label();
-            this.lblGiraffeStatus4 = new System.Windows.Forms.Label();
-            this.lblGiraffeStatus5 = new System.Windows.Forms.Label();
-            this.lblMonkeyHealth1 = new System.Windows.Forms.Label();
-            this.lblMonkeyHealth2 = new System.Windows.Forms.Label();
-            this.lblMonkeyHealth3 = new System.Windows.Forms.Label();
-            this.lblMonkeyHealth4 = new System.Windows.Forms.Label();
-            this.lblMonkeyHealth5 = new System.Windows.Forms.Label();
-            this.lblElephantHealth1 = new System.Windows.Forms.Label();
-            this.lblElephantHealth2 = new System.Windows.Forms.Label();
-            this.lblElephantHealth3 = new System.Windows.Forms.Label();
-            this.lblElephantHealth4 = new System.Windows.Forms.Label();
-            this.lblElephantHealth5 = new System.Windows.Forms.Label();
-            this.lblGiraffeHealth1 = new System.Windows.Forms.Label();
-            this.lblGiraffeHealth2 = new System.Windows.Forms.Label();
-            this.lblGiraffeHealth3 = new System.Windows.Forms.Label();
-            this.lblGiraffeHealth4 = new System.Windows.Forms.Label();
-            this.lblGiraffeHealth5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbxLogo)).BeginInit();
             this.pnlSimulation.SuspendLayout();
             this.pnlGiraffes.SuspendLayout();
@@ -233,7 +218,6 @@
             this.pnlGiraffe5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlGiraffe5.Controls.Add(this.lblGiraffeHealth5);
             this.pnlGiraffe5.Controls.Add(this.lblGiraffeStatus5);
-            this.pnlGiraffe5.Controls.Add(this.btnFeedGiraffe5);
             this.pnlGiraffe5.Controls.Add(this.lblGiraffe5);
             this.pnlGiraffe5.Controls.Add(this.pbrGiraffe5);
             this.pnlGiraffe5.Location = new System.Drawing.Point(4, 342);
@@ -242,15 +226,24 @@
             this.pnlGiraffe5.TabIndex = 2;
             this.pnlGiraffe5.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlGiraffe5_Paint);
             // 
-            // btnFeedGiraffe5
+            // lblGiraffeHealth5
             // 
-            this.btnFeedGiraffe5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFeedGiraffe5.Location = new System.Drawing.Point(187, 32);
-            this.btnFeedGiraffe5.Name = "btnFeedGiraffe5";
-            this.btnFeedGiraffe5.Size = new System.Drawing.Size(52, 39);
-            this.btnFeedGiraffe5.TabIndex = 5;
-            this.btnFeedGiraffe5.Text = "Feed";
-            this.btnFeedGiraffe5.UseVisualStyleBackColor = true;
+            this.lblGiraffeHealth5.AutoSize = true;
+            this.lblGiraffeHealth5.Location = new System.Drawing.Point(83, 45);
+            this.lblGiraffeHealth5.Name = "lblGiraffeHealth5";
+            this.lblGiraffeHealth5.Size = new System.Drawing.Size(47, 16);
+            this.lblGiraffeHealth5.TabIndex = 7;
+            this.lblGiraffeHealth5.Text = "Health: ";
+            // 
+            // lblGiraffeStatus5
+            // 
+            this.lblGiraffeStatus5.AutoSize = true;
+            this.lblGiraffeStatus5.Location = new System.Drawing.Point(83, 29);
+            this.lblGiraffeStatus5.Name = "lblGiraffeStatus5";
+            this.lblGiraffeStatus5.Size = new System.Drawing.Size(47, 16);
+            this.lblGiraffeStatus5.TabIndex = 6;
+            this.lblGiraffeStatus5.Text = "Status: ";
+            this.lblGiraffeStatus5.Click += new System.EventHandler(this.LblGiraffeStatus5_Click);
             // 
             // lblGiraffe5
             // 
@@ -274,7 +267,6 @@
             this.pnlGiraffe4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlGiraffe4.Controls.Add(this.lblGiraffeHealth4);
             this.pnlGiraffe4.Controls.Add(this.lblGiraffeStatus4);
-            this.pnlGiraffe4.Controls.Add(this.btnFeedGiraffe4);
             this.pnlGiraffe4.Controls.Add(this.lblGiraffe4);
             this.pnlGiraffe4.Controls.Add(this.pbrGiraffe4);
             this.pnlGiraffe4.Location = new System.Drawing.Point(4, 258);
@@ -282,15 +274,24 @@
             this.pnlGiraffe4.Size = new System.Drawing.Size(245, 76);
             this.pnlGiraffe4.TabIndex = 2;
             // 
-            // btnFeedGiraffe4
+            // lblGiraffeHealth4
             // 
-            this.btnFeedGiraffe4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFeedGiraffe4.Location = new System.Drawing.Point(188, 32);
-            this.btnFeedGiraffe4.Name = "btnFeedGiraffe4";
-            this.btnFeedGiraffe4.Size = new System.Drawing.Size(52, 39);
-            this.btnFeedGiraffe4.TabIndex = 5;
-            this.btnFeedGiraffe4.Text = "Feed";
-            this.btnFeedGiraffe4.UseVisualStyleBackColor = true;
+            this.lblGiraffeHealth4.AutoSize = true;
+            this.lblGiraffeHealth4.Location = new System.Drawing.Point(83, 45);
+            this.lblGiraffeHealth4.Name = "lblGiraffeHealth4";
+            this.lblGiraffeHealth4.Size = new System.Drawing.Size(47, 16);
+            this.lblGiraffeHealth4.TabIndex = 7;
+            this.lblGiraffeHealth4.Text = "Health: ";
+            // 
+            // lblGiraffeStatus4
+            // 
+            this.lblGiraffeStatus4.AutoSize = true;
+            this.lblGiraffeStatus4.Location = new System.Drawing.Point(83, 29);
+            this.lblGiraffeStatus4.Name = "lblGiraffeStatus4";
+            this.lblGiraffeStatus4.Size = new System.Drawing.Size(47, 16);
+            this.lblGiraffeStatus4.TabIndex = 6;
+            this.lblGiraffeStatus4.Text = "Status: ";
+            this.lblGiraffeStatus4.Click += new System.EventHandler(this.Label14_Click);
             // 
             // lblGiraffe4
             // 
@@ -314,7 +315,6 @@
             this.pnlGiraffe3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlGiraffe3.Controls.Add(this.lblGiraffeHealth3);
             this.pnlGiraffe3.Controls.Add(this.lblGiraffeStatus3);
-            this.pnlGiraffe3.Controls.Add(this.btnFeedGiraffe3);
             this.pnlGiraffe3.Controls.Add(this.lblGiraffe3);
             this.pnlGiraffe3.Controls.Add(this.pbrGiraffe3);
             this.pnlGiraffe3.Location = new System.Drawing.Point(4, 174);
@@ -322,15 +322,24 @@
             this.pnlGiraffe3.Size = new System.Drawing.Size(245, 76);
             this.pnlGiraffe3.TabIndex = 2;
             // 
-            // btnFeedGiraffe3
+            // lblGiraffeHealth3
             // 
-            this.btnFeedGiraffe3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFeedGiraffe3.Location = new System.Drawing.Point(188, 32);
-            this.btnFeedGiraffe3.Name = "btnFeedGiraffe3";
-            this.btnFeedGiraffe3.Size = new System.Drawing.Size(52, 39);
-            this.btnFeedGiraffe3.TabIndex = 5;
-            this.btnFeedGiraffe3.Text = "Feed";
-            this.btnFeedGiraffe3.UseVisualStyleBackColor = true;
+            this.lblGiraffeHealth3.AutoSize = true;
+            this.lblGiraffeHealth3.Location = new System.Drawing.Point(83, 45);
+            this.lblGiraffeHealth3.Name = "lblGiraffeHealth3";
+            this.lblGiraffeHealth3.Size = new System.Drawing.Size(47, 16);
+            this.lblGiraffeHealth3.TabIndex = 7;
+            this.lblGiraffeHealth3.Text = "Health: ";
+            // 
+            // lblGiraffeStatus3
+            // 
+            this.lblGiraffeStatus3.AutoSize = true;
+            this.lblGiraffeStatus3.Location = new System.Drawing.Point(83, 29);
+            this.lblGiraffeStatus3.Name = "lblGiraffeStatus3";
+            this.lblGiraffeStatus3.Size = new System.Drawing.Size(47, 16);
+            this.lblGiraffeStatus3.TabIndex = 6;
+            this.lblGiraffeStatus3.Text = "Status: ";
+            this.lblGiraffeStatus3.Click += new System.EventHandler(this.LblGiraffeStatus3_Click);
             // 
             // lblGiraffe3
             // 
@@ -354,7 +363,6 @@
             this.pnlGiraffe2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlGiraffe2.Controls.Add(this.lblGiraffeHealth2);
             this.pnlGiraffe2.Controls.Add(this.lblGiraffeStatus2);
-            this.pnlGiraffe2.Controls.Add(this.btnFeedGiraffe2);
             this.pnlGiraffe2.Controls.Add(this.lblGiraffe2);
             this.pnlGiraffe2.Controls.Add(this.pbrGiraffe2);
             this.pnlGiraffe2.Location = new System.Drawing.Point(4, 90);
@@ -363,15 +371,24 @@
             this.pnlGiraffe2.TabIndex = 2;
             this.pnlGiraffe2.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlGiraffe2_Paint);
             // 
-            // btnFeedGiraffe2
+            // lblGiraffeHealth2
             // 
-            this.btnFeedGiraffe2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFeedGiraffe2.Location = new System.Drawing.Point(188, 32);
-            this.btnFeedGiraffe2.Name = "btnFeedGiraffe2";
-            this.btnFeedGiraffe2.Size = new System.Drawing.Size(52, 39);
-            this.btnFeedGiraffe2.TabIndex = 5;
-            this.btnFeedGiraffe2.Text = "Feed";
-            this.btnFeedGiraffe2.UseVisualStyleBackColor = true;
+            this.lblGiraffeHealth2.AutoSize = true;
+            this.lblGiraffeHealth2.Location = new System.Drawing.Point(83, 45);
+            this.lblGiraffeHealth2.Name = "lblGiraffeHealth2";
+            this.lblGiraffeHealth2.Size = new System.Drawing.Size(47, 16);
+            this.lblGiraffeHealth2.TabIndex = 7;
+            this.lblGiraffeHealth2.Text = "Health: ";
+            // 
+            // lblGiraffeStatus2
+            // 
+            this.lblGiraffeStatus2.AutoSize = true;
+            this.lblGiraffeStatus2.Location = new System.Drawing.Point(83, 29);
+            this.lblGiraffeStatus2.Name = "lblGiraffeStatus2";
+            this.lblGiraffeStatus2.Size = new System.Drawing.Size(47, 16);
+            this.lblGiraffeStatus2.TabIndex = 6;
+            this.lblGiraffeStatus2.Text = "Status: ";
+            this.lblGiraffeStatus2.Click += new System.EventHandler(this.Label12_Click);
             // 
             // lblGiraffe2
             // 
@@ -395,7 +412,6 @@
             this.pnlGiraffe1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlGiraffe1.Controls.Add(this.lblGiraffeHealth1);
             this.pnlGiraffe1.Controls.Add(this.lblGiraffeStatus1);
-            this.pnlGiraffe1.Controls.Add(this.btnFeedGiraffe1);
             this.pnlGiraffe1.Controls.Add(this.lblGiraffe1);
             this.pnlGiraffe1.Controls.Add(this.pbrGiraffe1);
             this.pnlGiraffe1.Location = new System.Drawing.Point(3, 6);
@@ -403,15 +419,24 @@
             this.pnlGiraffe1.Size = new System.Drawing.Size(245, 76);
             this.pnlGiraffe1.TabIndex = 2;
             // 
-            // btnFeedGiraffe1
+            // lblGiraffeHealth1
             // 
-            this.btnFeedGiraffe1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFeedGiraffe1.Location = new System.Drawing.Point(189, 32);
-            this.btnFeedGiraffe1.Name = "btnFeedGiraffe1";
-            this.btnFeedGiraffe1.Size = new System.Drawing.Size(52, 39);
-            this.btnFeedGiraffe1.TabIndex = 4;
-            this.btnFeedGiraffe1.Text = "Feed";
-            this.btnFeedGiraffe1.UseVisualStyleBackColor = true;
+            this.lblGiraffeHealth1.AutoSize = true;
+            this.lblGiraffeHealth1.Location = new System.Drawing.Point(83, 45);
+            this.lblGiraffeHealth1.Name = "lblGiraffeHealth1";
+            this.lblGiraffeHealth1.Size = new System.Drawing.Size(47, 16);
+            this.lblGiraffeHealth1.TabIndex = 7;
+            this.lblGiraffeHealth1.Text = "Health: ";
+            // 
+            // lblGiraffeStatus1
+            // 
+            this.lblGiraffeStatus1.AutoSize = true;
+            this.lblGiraffeStatus1.Location = new System.Drawing.Point(83, 29);
+            this.lblGiraffeStatus1.Name = "lblGiraffeStatus1";
+            this.lblGiraffeStatus1.Size = new System.Drawing.Size(47, 16);
+            this.lblGiraffeStatus1.TabIndex = 5;
+            this.lblGiraffeStatus1.Text = "Status: ";
+            this.lblGiraffeStatus1.Click += new System.EventHandler(this.Label11_Click);
             // 
             // lblGiraffe1
             // 
@@ -449,7 +474,6 @@
             this.pnlElephant5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlElephant5.Controls.Add(this.lblElephantHealth5);
             this.pnlElephant5.Controls.Add(this.lblElephantStatus5);
-            this.pnlElephant5.Controls.Add(this.btnFeedElephant5);
             this.pnlElephant5.Controls.Add(this.lblElephant5);
             this.pnlElephant5.Controls.Add(this.pbrElephant5);
             this.pnlElephant5.Location = new System.Drawing.Point(3, 342);
@@ -457,15 +481,23 @@
             this.pnlElephant5.Size = new System.Drawing.Size(245, 76);
             this.pnlElephant5.TabIndex = 2;
             // 
-            // btnFeedElephant5
+            // lblElephantHealth5
             // 
-            this.btnFeedElephant5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFeedElephant5.Location = new System.Drawing.Point(188, 32);
-            this.btnFeedElephant5.Name = "btnFeedElephant5";
-            this.btnFeedElephant5.Size = new System.Drawing.Size(52, 39);
-            this.btnFeedElephant5.TabIndex = 4;
-            this.btnFeedElephant5.Text = "Feed";
-            this.btnFeedElephant5.UseVisualStyleBackColor = true;
+            this.lblElephantHealth5.AutoSize = true;
+            this.lblElephantHealth5.Location = new System.Drawing.Point(89, 45);
+            this.lblElephantHealth5.Name = "lblElephantHealth5";
+            this.lblElephantHealth5.Size = new System.Drawing.Size(47, 16);
+            this.lblElephantHealth5.TabIndex = 7;
+            this.lblElephantHealth5.Text = "Health: ";
+            // 
+            // lblElephantStatus5
+            // 
+            this.lblElephantStatus5.AutoSize = true;
+            this.lblElephantStatus5.Location = new System.Drawing.Point(89, 29);
+            this.lblElephantStatus5.Name = "lblElephantStatus5";
+            this.lblElephantStatus5.Size = new System.Drawing.Size(47, 16);
+            this.lblElephantStatus5.TabIndex = 5;
+            this.lblElephantStatus5.Text = "Status: ";
             // 
             // lblElephant5
             // 
@@ -489,7 +521,6 @@
             this.pnlElephant4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlElephant4.Controls.Add(this.lblElephantHealth4);
             this.pnlElephant4.Controls.Add(this.lblElephantStatus4);
-            this.pnlElephant4.Controls.Add(this.btnFeedElephant4);
             this.pnlElephant4.Controls.Add(this.lblElephant4);
             this.pnlElephant4.Controls.Add(this.pbrElephant4);
             this.pnlElephant4.Location = new System.Drawing.Point(3, 258);
@@ -497,15 +528,23 @@
             this.pnlElephant4.Size = new System.Drawing.Size(245, 76);
             this.pnlElephant4.TabIndex = 2;
             // 
-            // btnFeedElephant4
+            // lblElephantHealth4
             // 
-            this.btnFeedElephant4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFeedElephant4.Location = new System.Drawing.Point(188, 32);
-            this.btnFeedElephant4.Name = "btnFeedElephant4";
-            this.btnFeedElephant4.Size = new System.Drawing.Size(52, 39);
-            this.btnFeedElephant4.TabIndex = 4;
-            this.btnFeedElephant4.Text = "Feed";
-            this.btnFeedElephant4.UseVisualStyleBackColor = true;
+            this.lblElephantHealth4.AutoSize = true;
+            this.lblElephantHealth4.Location = new System.Drawing.Point(89, 45);
+            this.lblElephantHealth4.Name = "lblElephantHealth4";
+            this.lblElephantHealth4.Size = new System.Drawing.Size(47, 16);
+            this.lblElephantHealth4.TabIndex = 7;
+            this.lblElephantHealth4.Text = "Health: ";
+            // 
+            // lblElephantStatus4
+            // 
+            this.lblElephantStatus4.AutoSize = true;
+            this.lblElephantStatus4.Location = new System.Drawing.Point(89, 29);
+            this.lblElephantStatus4.Name = "lblElephantStatus4";
+            this.lblElephantStatus4.Size = new System.Drawing.Size(47, 16);
+            this.lblElephantStatus4.TabIndex = 5;
+            this.lblElephantStatus4.Text = "Status: ";
             // 
             // lblElephant4
             // 
@@ -529,7 +568,6 @@
             this.pnlElephant3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlElephant3.Controls.Add(this.lblElephantHealth3);
             this.pnlElephant3.Controls.Add(this.lblElephantStatus3);
-            this.pnlElephant3.Controls.Add(this.btnFeedElephant3);
             this.pnlElephant3.Controls.Add(this.lblElephant3);
             this.pnlElephant3.Controls.Add(this.pbrElephant3);
             this.pnlElephant3.Location = new System.Drawing.Point(3, 174);
@@ -537,15 +575,23 @@
             this.pnlElephant3.Size = new System.Drawing.Size(245, 76);
             this.pnlElephant3.TabIndex = 2;
             // 
-            // btnFeedElephant3
+            // lblElephantHealth3
             // 
-            this.btnFeedElephant3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFeedElephant3.Location = new System.Drawing.Point(188, 32);
-            this.btnFeedElephant3.Name = "btnFeedElephant3";
-            this.btnFeedElephant3.Size = new System.Drawing.Size(52, 39);
-            this.btnFeedElephant3.TabIndex = 4;
-            this.btnFeedElephant3.Text = "Feed";
-            this.btnFeedElephant3.UseVisualStyleBackColor = true;
+            this.lblElephantHealth3.AutoSize = true;
+            this.lblElephantHealth3.Location = new System.Drawing.Point(89, 45);
+            this.lblElephantHealth3.Name = "lblElephantHealth3";
+            this.lblElephantHealth3.Size = new System.Drawing.Size(47, 16);
+            this.lblElephantHealth3.TabIndex = 7;
+            this.lblElephantHealth3.Text = "Health: ";
+            // 
+            // lblElephantStatus3
+            // 
+            this.lblElephantStatus3.AutoSize = true;
+            this.lblElephantStatus3.Location = new System.Drawing.Point(89, 29);
+            this.lblElephantStatus3.Name = "lblElephantStatus3";
+            this.lblElephantStatus3.Size = new System.Drawing.Size(47, 16);
+            this.lblElephantStatus3.TabIndex = 5;
+            this.lblElephantStatus3.Text = "Status: ";
             // 
             // lblElephant3
             // 
@@ -569,7 +615,6 @@
             this.pnlElephant2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlElephant2.Controls.Add(this.lblElephantHealth2);
             this.pnlElephant2.Controls.Add(this.lblElephantStatus2);
-            this.pnlElephant2.Controls.Add(this.btnFeedElephant2);
             this.pnlElephant2.Controls.Add(this.lblElephant2);
             this.pnlElephant2.Controls.Add(this.pbrElephant2);
             this.pnlElephant2.Location = new System.Drawing.Point(3, 90);
@@ -577,15 +622,23 @@
             this.pnlElephant2.Size = new System.Drawing.Size(245, 76);
             this.pnlElephant2.TabIndex = 2;
             // 
-            // btnFeedElephant2
+            // lblElephantHealth2
             // 
-            this.btnFeedElephant2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFeedElephant2.Location = new System.Drawing.Point(188, 32);
-            this.btnFeedElephant2.Name = "btnFeedElephant2";
-            this.btnFeedElephant2.Size = new System.Drawing.Size(52, 39);
-            this.btnFeedElephant2.TabIndex = 4;
-            this.btnFeedElephant2.Text = "Feed";
-            this.btnFeedElephant2.UseVisualStyleBackColor = true;
+            this.lblElephantHealth2.AutoSize = true;
+            this.lblElephantHealth2.Location = new System.Drawing.Point(89, 45);
+            this.lblElephantHealth2.Name = "lblElephantHealth2";
+            this.lblElephantHealth2.Size = new System.Drawing.Size(47, 16);
+            this.lblElephantHealth2.TabIndex = 7;
+            this.lblElephantHealth2.Text = "Health: ";
+            // 
+            // lblElephantStatus2
+            // 
+            this.lblElephantStatus2.AutoSize = true;
+            this.lblElephantStatus2.Location = new System.Drawing.Point(89, 29);
+            this.lblElephantStatus2.Name = "lblElephantStatus2";
+            this.lblElephantStatus2.Size = new System.Drawing.Size(47, 16);
+            this.lblElephantStatus2.TabIndex = 5;
+            this.lblElephantStatus2.Text = "Status: ";
             // 
             // lblElephant2
             // 
@@ -609,7 +662,6 @@
             this.pnlElephant1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlElephant1.Controls.Add(this.lblElephantHealth1);
             this.pnlElephant1.Controls.Add(this.lblElephantStatus1);
-            this.pnlElephant1.Controls.Add(this.btnFeedElephant1);
             this.pnlElephant1.Controls.Add(this.lblElephant1);
             this.pnlElephant1.Controls.Add(this.pbrElephant1);
             this.pnlElephant1.Location = new System.Drawing.Point(3, 6);
@@ -617,15 +669,23 @@
             this.pnlElephant1.Size = new System.Drawing.Size(245, 76);
             this.pnlElephant1.TabIndex = 1;
             // 
-            // btnFeedElephant1
+            // lblElephantHealth1
             // 
-            this.btnFeedElephant1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFeedElephant1.Location = new System.Drawing.Point(188, 32);
-            this.btnFeedElephant1.Name = "btnFeedElephant1";
-            this.btnFeedElephant1.Size = new System.Drawing.Size(52, 39);
-            this.btnFeedElephant1.TabIndex = 3;
-            this.btnFeedElephant1.Text = "Feed";
-            this.btnFeedElephant1.UseVisualStyleBackColor = true;
+            this.lblElephantHealth1.AutoSize = true;
+            this.lblElephantHealth1.Location = new System.Drawing.Point(87, 45);
+            this.lblElephantHealth1.Name = "lblElephantHealth1";
+            this.lblElephantHealth1.Size = new System.Drawing.Size(47, 16);
+            this.lblElephantHealth1.TabIndex = 6;
+            this.lblElephantHealth1.Text = "Health: ";
+            // 
+            // lblElephantStatus1
+            // 
+            this.lblElephantStatus1.AutoSize = true;
+            this.lblElephantStatus1.Location = new System.Drawing.Point(87, 29);
+            this.lblElephantStatus1.Name = "lblElephantStatus1";
+            this.lblElephantStatus1.Size = new System.Drawing.Size(47, 16);
+            this.lblElephantStatus1.TabIndex = 4;
+            this.lblElephantStatus1.Text = "Status: ";
             // 
             // lblElephant1
             // 
@@ -663,7 +723,6 @@
             this.pnlMonkey5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlMonkey5.Controls.Add(this.lblMonkeyHealth5);
             this.pnlMonkey5.Controls.Add(this.lblMonkeyStatus5);
-            this.pnlMonkey5.Controls.Add(this.btnFeedMonkey5);
             this.pnlMonkey5.Controls.Add(this.lblMonkey5);
             this.pnlMonkey5.Controls.Add(this.pbrMonkey5);
             this.pnlMonkey5.Location = new System.Drawing.Point(3, 342);
@@ -671,15 +730,23 @@
             this.pnlMonkey5.Size = new System.Drawing.Size(245, 76);
             this.pnlMonkey5.TabIndex = 1;
             // 
-            // btnFeedMonkey5
+            // lblMonkeyHealth5
             // 
-            this.btnFeedMonkey5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFeedMonkey5.Location = new System.Drawing.Point(188, 32);
-            this.btnFeedMonkey5.Name = "btnFeedMonkey5";
-            this.btnFeedMonkey5.Size = new System.Drawing.Size(52, 39);
-            this.btnFeedMonkey5.TabIndex = 3;
-            this.btnFeedMonkey5.Text = "Feed";
-            this.btnFeedMonkey5.UseVisualStyleBackColor = true;
+            this.lblMonkeyHealth5.AutoSize = true;
+            this.lblMonkeyHealth5.Location = new System.Drawing.Point(83, 45);
+            this.lblMonkeyHealth5.Name = "lblMonkeyHealth5";
+            this.lblMonkeyHealth5.Size = new System.Drawing.Size(47, 16);
+            this.lblMonkeyHealth5.TabIndex = 6;
+            this.lblMonkeyHealth5.Text = "Health: ";
+            // 
+            // lblMonkeyStatus5
+            // 
+            this.lblMonkeyStatus5.AutoSize = true;
+            this.lblMonkeyStatus5.Location = new System.Drawing.Point(83, 29);
+            this.lblMonkeyStatus5.Name = "lblMonkeyStatus5";
+            this.lblMonkeyStatus5.Size = new System.Drawing.Size(47, 16);
+            this.lblMonkeyStatus5.TabIndex = 4;
+            this.lblMonkeyStatus5.Text = "Status: ";
             // 
             // lblMonkey5
             // 
@@ -703,7 +770,6 @@
             this.pnlMonkey4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlMonkey4.Controls.Add(this.lblMonkeyHealth4);
             this.pnlMonkey4.Controls.Add(this.lblMonkeyStatus4);
-            this.pnlMonkey4.Controls.Add(this.btnFeedMonkey4);
             this.pnlMonkey4.Controls.Add(this.lblMonkey4);
             this.pnlMonkey4.Controls.Add(this.pbrMonkey4);
             this.pnlMonkey4.Location = new System.Drawing.Point(3, 258);
@@ -711,15 +777,23 @@
             this.pnlMonkey4.Size = new System.Drawing.Size(245, 76);
             this.pnlMonkey4.TabIndex = 2;
             // 
-            // btnFeedMonkey4
+            // lblMonkeyHealth4
             // 
-            this.btnFeedMonkey4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFeedMonkey4.Location = new System.Drawing.Point(188, 32);
-            this.btnFeedMonkey4.Name = "btnFeedMonkey4";
-            this.btnFeedMonkey4.Size = new System.Drawing.Size(52, 39);
-            this.btnFeedMonkey4.TabIndex = 3;
-            this.btnFeedMonkey4.Text = "Feed";
-            this.btnFeedMonkey4.UseVisualStyleBackColor = true;
+            this.lblMonkeyHealth4.AutoSize = true;
+            this.lblMonkeyHealth4.Location = new System.Drawing.Point(83, 45);
+            this.lblMonkeyHealth4.Name = "lblMonkeyHealth4";
+            this.lblMonkeyHealth4.Size = new System.Drawing.Size(47, 16);
+            this.lblMonkeyHealth4.TabIndex = 6;
+            this.lblMonkeyHealth4.Text = "Health: ";
+            // 
+            // lblMonkeyStatus4
+            // 
+            this.lblMonkeyStatus4.AutoSize = true;
+            this.lblMonkeyStatus4.Location = new System.Drawing.Point(83, 29);
+            this.lblMonkeyStatus4.Name = "lblMonkeyStatus4";
+            this.lblMonkeyStatus4.Size = new System.Drawing.Size(47, 16);
+            this.lblMonkeyStatus4.TabIndex = 4;
+            this.lblMonkeyStatus4.Text = "Status: ";
             // 
             // lblMonkey4
             // 
@@ -743,7 +817,6 @@
             this.pnlMonkey3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlMonkey3.Controls.Add(this.lblMonkeyHealth3);
             this.pnlMonkey3.Controls.Add(this.lblMonkeyStatus3);
-            this.pnlMonkey3.Controls.Add(this.btnFeedMonkey3);
             this.pnlMonkey3.Controls.Add(this.lblMonkey3);
             this.pnlMonkey3.Controls.Add(this.pbrMonkey3);
             this.pnlMonkey3.Location = new System.Drawing.Point(3, 174);
@@ -752,15 +825,23 @@
             this.pnlMonkey3.TabIndex = 1;
             this.pnlMonkey3.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlMonkey3_Paint);
             // 
-            // btnFeedMonkey3
+            // lblMonkeyHealth3
             // 
-            this.btnFeedMonkey3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFeedMonkey3.Location = new System.Drawing.Point(188, 32);
-            this.btnFeedMonkey3.Name = "btnFeedMonkey3";
-            this.btnFeedMonkey3.Size = new System.Drawing.Size(52, 39);
-            this.btnFeedMonkey3.TabIndex = 3;
-            this.btnFeedMonkey3.Text = "Feed";
-            this.btnFeedMonkey3.UseVisualStyleBackColor = true;
+            this.lblMonkeyHealth3.AutoSize = true;
+            this.lblMonkeyHealth3.Location = new System.Drawing.Point(83, 45);
+            this.lblMonkeyHealth3.Name = "lblMonkeyHealth3";
+            this.lblMonkeyHealth3.Size = new System.Drawing.Size(47, 16);
+            this.lblMonkeyHealth3.TabIndex = 5;
+            this.lblMonkeyHealth3.Text = "Health: ";
+            // 
+            // lblMonkeyStatus3
+            // 
+            this.lblMonkeyStatus3.AutoSize = true;
+            this.lblMonkeyStatus3.Location = new System.Drawing.Point(83, 29);
+            this.lblMonkeyStatus3.Name = "lblMonkeyStatus3";
+            this.lblMonkeyStatus3.Size = new System.Drawing.Size(47, 16);
+            this.lblMonkeyStatus3.TabIndex = 4;
+            this.lblMonkeyStatus3.Text = "Status: ";
             // 
             // lblMonkey3
             // 
@@ -784,7 +865,6 @@
             this.pnlMonkey2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlMonkey2.Controls.Add(this.lblMonkeyHealth2);
             this.pnlMonkey2.Controls.Add(this.lblMonkeyStatus2);
-            this.pnlMonkey2.Controls.Add(this.btnFeedMonkey2);
             this.pnlMonkey2.Controls.Add(this.lblMonkey2);
             this.pnlMonkey2.Controls.Add(this.pbrMonkey2);
             this.pnlMonkey2.Location = new System.Drawing.Point(3, 90);
@@ -792,15 +872,24 @@
             this.pnlMonkey2.Size = new System.Drawing.Size(245, 76);
             this.pnlMonkey2.TabIndex = 1;
             // 
-            // btnFeedMonkey2
+            // lblMonkeyHealth2
             // 
-            this.btnFeedMonkey2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFeedMonkey2.Location = new System.Drawing.Point(188, 32);
-            this.btnFeedMonkey2.Name = "btnFeedMonkey2";
-            this.btnFeedMonkey2.Size = new System.Drawing.Size(52, 39);
-            this.btnFeedMonkey2.TabIndex = 3;
-            this.btnFeedMonkey2.Text = "Feed";
-            this.btnFeedMonkey2.UseVisualStyleBackColor = true;
+            this.lblMonkeyHealth2.AutoSize = true;
+            this.lblMonkeyHealth2.Location = new System.Drawing.Point(83, 45);
+            this.lblMonkeyHealth2.Name = "lblMonkeyHealth2";
+            this.lblMonkeyHealth2.Size = new System.Drawing.Size(47, 16);
+            this.lblMonkeyHealth2.TabIndex = 4;
+            this.lblMonkeyHealth2.Text = "Health: ";
+            this.lblMonkeyHealth2.Click += new System.EventHandler(this.Label3_Click);
+            // 
+            // lblMonkeyStatus2
+            // 
+            this.lblMonkeyStatus2.AutoSize = true;
+            this.lblMonkeyStatus2.Location = new System.Drawing.Point(83, 29);
+            this.lblMonkeyStatus2.Name = "lblMonkeyStatus2";
+            this.lblMonkeyStatus2.Size = new System.Drawing.Size(47, 16);
+            this.lblMonkeyStatus2.TabIndex = 3;
+            this.lblMonkeyStatus2.Text = "Status: ";
             // 
             // lblMonkey2
             // 
@@ -824,7 +913,6 @@
             this.pnlMonkey1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlMonkey1.Controls.Add(this.lblMonkeyHealth1);
             this.pnlMonkey1.Controls.Add(this.lblMonkeyStatus1);
-            this.pnlMonkey1.Controls.Add(this.btnFeedMonkey1);
             this.pnlMonkey1.Controls.Add(this.lblMonkey1);
             this.pnlMonkey1.Controls.Add(this.pbrMonkey1);
             this.pnlMonkey1.Location = new System.Drawing.Point(3, 6);
@@ -832,15 +920,23 @@
             this.pnlMonkey1.Size = new System.Drawing.Size(245, 76);
             this.pnlMonkey1.TabIndex = 0;
             // 
-            // btnFeedMonkey1
+            // lblMonkeyHealth1
             // 
-            this.btnFeedMonkey1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFeedMonkey1.Location = new System.Drawing.Point(188, 32);
-            this.btnFeedMonkey1.Name = "btnFeedMonkey1";
-            this.btnFeedMonkey1.Size = new System.Drawing.Size(52, 39);
-            this.btnFeedMonkey1.TabIndex = 0;
-            this.btnFeedMonkey1.Text = "Feed";
-            this.btnFeedMonkey1.UseVisualStyleBackColor = true;
+            this.lblMonkeyHealth1.AutoSize = true;
+            this.lblMonkeyHealth1.Location = new System.Drawing.Point(83, 45);
+            this.lblMonkeyHealth1.Name = "lblMonkeyHealth1";
+            this.lblMonkeyHealth1.Size = new System.Drawing.Size(47, 16);
+            this.lblMonkeyHealth1.TabIndex = 3;
+            this.lblMonkeyHealth1.Text = "Health: ";
+            // 
+            // lblMonkeyStatus1
+            // 
+            this.lblMonkeyStatus1.AutoSize = true;
+            this.lblMonkeyStatus1.Location = new System.Drawing.Point(83, 29);
+            this.lblMonkeyStatus1.Name = "lblMonkeyStatus1";
+            this.lblMonkeyStatus1.Size = new System.Drawing.Size(47, 16);
+            this.lblMonkeyStatus1.TabIndex = 2;
+            this.lblMonkeyStatus1.Text = "Status: ";
             // 
             // lblMonkey1
             // 
@@ -863,7 +959,7 @@
             this.lblAuthor.AutoSize = true;
             this.lblAuthor.Location = new System.Drawing.Point(652, 22);
             this.lblAuthor.Name = "lblAuthor";
-            this.lblAuthor.Size = new System.Drawing.Size(136, 16);
+            this.lblAuthor.Size = new System.Drawing.Size(145, 16);
             this.lblAuthor.TabIndex = 3;
             this.lblAuthor.Text = "by Pavilion Sahota 👉😉👉";
             // 
@@ -871,7 +967,7 @@
             // 
             this.lblZooTime.AutoSize = true;
             this.lblZooTime.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblZooTime.Location = new System.Drawing.Point(346, 21);
+            this.lblZooTime.Location = new System.Drawing.Point(366, 20);
             this.lblZooTime.Name = "lblZooTime";
             this.lblZooTime.Size = new System.Drawing.Size(81, 19);
             this.lblZooTime.TabIndex = 4;
@@ -880,7 +976,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(347, 5);
+            this.label17.Location = new System.Drawing.Point(380, 4);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(52, 16);
             this.label17.TabIndex = 5;
@@ -889,282 +985,6 @@
             // tmrSimulationTimer
             // 
             this.tmrSimulationTimer.Interval = 1000;
-            // 
-            // lblMonkeyStatus1
-            // 
-            this.lblMonkeyStatus1.AutoSize = true;
-            this.lblMonkeyStatus1.Location = new System.Drawing.Point(83, 29);
-            this.lblMonkeyStatus1.Name = "lblMonkeyStatus1";
-            this.lblMonkeyStatus1.Size = new System.Drawing.Size(47, 16);
-            this.lblMonkeyStatus1.TabIndex = 2;
-            this.lblMonkeyStatus1.Text = "Status: ";
-            // 
-            // lblMonkeyStatus2
-            // 
-            this.lblMonkeyStatus2.AutoSize = true;
-            this.lblMonkeyStatus2.Location = new System.Drawing.Point(83, 29);
-            this.lblMonkeyStatus2.Name = "lblMonkeyStatus2";
-            this.lblMonkeyStatus2.Size = new System.Drawing.Size(47, 16);
-            this.lblMonkeyStatus2.TabIndex = 3;
-            this.lblMonkeyStatus2.Text = "Status: ";
-            // 
-            // lblMonkeyStatus3
-            // 
-            this.lblMonkeyStatus3.AutoSize = true;
-            this.lblMonkeyStatus3.Location = new System.Drawing.Point(83, 29);
-            this.lblMonkeyStatus3.Name = "lblMonkeyStatus3";
-            this.lblMonkeyStatus3.Size = new System.Drawing.Size(47, 16);
-            this.lblMonkeyStatus3.TabIndex = 4;
-            this.lblMonkeyStatus3.Text = "Status: ";
-            // 
-            // lblMonkeyStatus4
-            // 
-            this.lblMonkeyStatus4.AutoSize = true;
-            this.lblMonkeyStatus4.Location = new System.Drawing.Point(83, 29);
-            this.lblMonkeyStatus4.Name = "lblMonkeyStatus4";
-            this.lblMonkeyStatus4.Size = new System.Drawing.Size(47, 16);
-            this.lblMonkeyStatus4.TabIndex = 4;
-            this.lblMonkeyStatus4.Text = "Status: ";
-            // 
-            // lblMonkeyStatus5
-            // 
-            this.lblMonkeyStatus5.AutoSize = true;
-            this.lblMonkeyStatus5.Location = new System.Drawing.Point(83, 29);
-            this.lblMonkeyStatus5.Name = "lblMonkeyStatus5";
-            this.lblMonkeyStatus5.Size = new System.Drawing.Size(47, 16);
-            this.lblMonkeyStatus5.TabIndex = 4;
-            this.lblMonkeyStatus5.Text = "Status: ";
-            // 
-            // lblElephantStatus1
-            // 
-            this.lblElephantStatus1.AutoSize = true;
-            this.lblElephantStatus1.Location = new System.Drawing.Point(87, 29);
-            this.lblElephantStatus1.Name = "lblElephantStatus1";
-            this.lblElephantStatus1.Size = new System.Drawing.Size(47, 16);
-            this.lblElephantStatus1.TabIndex = 4;
-            this.lblElephantStatus1.Text = "Status: ";
-            // 
-            // lblElephantStatus2
-            // 
-            this.lblElephantStatus2.AutoSize = true;
-            this.lblElephantStatus2.Location = new System.Drawing.Point(89, 29);
-            this.lblElephantStatus2.Name = "lblElephantStatus2";
-            this.lblElephantStatus2.Size = new System.Drawing.Size(47, 16);
-            this.lblElephantStatus2.TabIndex = 5;
-            this.lblElephantStatus2.Text = "Status: ";
-            // 
-            // lblElephantStatus3
-            // 
-            this.lblElephantStatus3.AutoSize = true;
-            this.lblElephantStatus3.Location = new System.Drawing.Point(89, 29);
-            this.lblElephantStatus3.Name = "lblElephantStatus3";
-            this.lblElephantStatus3.Size = new System.Drawing.Size(47, 16);
-            this.lblElephantStatus3.TabIndex = 5;
-            this.lblElephantStatus3.Text = "Status: ";
-            // 
-            // lblElephantStatus4
-            // 
-            this.lblElephantStatus4.AutoSize = true;
-            this.lblElephantStatus4.Location = new System.Drawing.Point(89, 29);
-            this.lblElephantStatus4.Name = "lblElephantStatus4";
-            this.lblElephantStatus4.Size = new System.Drawing.Size(47, 16);
-            this.lblElephantStatus4.TabIndex = 5;
-            this.lblElephantStatus4.Text = "Status: ";
-            // 
-            // lblElephantStatus5
-            // 
-            this.lblElephantStatus5.AutoSize = true;
-            this.lblElephantStatus5.Location = new System.Drawing.Point(89, 29);
-            this.lblElephantStatus5.Name = "lblElephantStatus5";
-            this.lblElephantStatus5.Size = new System.Drawing.Size(47, 16);
-            this.lblElephantStatus5.TabIndex = 5;
-            this.lblElephantStatus5.Text = "Status: ";
-            // 
-            // lblGiraffeStatus1
-            // 
-            this.lblGiraffeStatus1.AutoSize = true;
-            this.lblGiraffeStatus1.Location = new System.Drawing.Point(83, 29);
-            this.lblGiraffeStatus1.Name = "lblGiraffeStatus1";
-            this.lblGiraffeStatus1.Size = new System.Drawing.Size(47, 16);
-            this.lblGiraffeStatus1.TabIndex = 5;
-            this.lblGiraffeStatus1.Text = "Status: ";
-            this.lblGiraffeStatus1.Click += new System.EventHandler(this.Label11_Click);
-            // 
-            // lblGiraffeStatus2
-            // 
-            this.lblGiraffeStatus2.AutoSize = true;
-            this.lblGiraffeStatus2.Location = new System.Drawing.Point(83, 29);
-            this.lblGiraffeStatus2.Name = "lblGiraffeStatus2";
-            this.lblGiraffeStatus2.Size = new System.Drawing.Size(47, 16);
-            this.lblGiraffeStatus2.TabIndex = 6;
-            this.lblGiraffeStatus2.Text = "Status: ";
-            this.lblGiraffeStatus2.Click += new System.EventHandler(this.Label12_Click);
-            // 
-            // lblGiraffeStatus3
-            // 
-            this.lblGiraffeStatus3.AutoSize = true;
-            this.lblGiraffeStatus3.Location = new System.Drawing.Point(83, 29);
-            this.lblGiraffeStatus3.Name = "lblGiraffeStatus3";
-            this.lblGiraffeStatus3.Size = new System.Drawing.Size(47, 16);
-            this.lblGiraffeStatus3.TabIndex = 6;
-            this.lblGiraffeStatus3.Text = "Status: ";
-            this.lblGiraffeStatus3.Click += new System.EventHandler(this.LblGiraffeStatus3_Click);
-            // 
-            // lblGiraffeStatus4
-            // 
-            this.lblGiraffeStatus4.AutoSize = true;
-            this.lblGiraffeStatus4.Location = new System.Drawing.Point(83, 29);
-            this.lblGiraffeStatus4.Name = "lblGiraffeStatus4";
-            this.lblGiraffeStatus4.Size = new System.Drawing.Size(47, 16);
-            this.lblGiraffeStatus4.TabIndex = 6;
-            this.lblGiraffeStatus4.Text = "Status: ";
-            this.lblGiraffeStatus4.Click += new System.EventHandler(this.Label14_Click);
-            // 
-            // lblGiraffeStatus5
-            // 
-            this.lblGiraffeStatus5.AutoSize = true;
-            this.lblGiraffeStatus5.Location = new System.Drawing.Point(83, 29);
-            this.lblGiraffeStatus5.Name = "lblGiraffeStatus5";
-            this.lblGiraffeStatus5.Size = new System.Drawing.Size(47, 16);
-            this.lblGiraffeStatus5.TabIndex = 6;
-            this.lblGiraffeStatus5.Text = "Status: ";
-            this.lblGiraffeStatus5.Click += new System.EventHandler(this.LblGiraffeStatus5_Click);
-            // 
-            // lblMonkeyHealth1
-            // 
-            this.lblMonkeyHealth1.AutoSize = true;
-            this.lblMonkeyHealth1.Location = new System.Drawing.Point(83, 45);
-            this.lblMonkeyHealth1.Name = "lblMonkeyHealth1";
-            this.lblMonkeyHealth1.Size = new System.Drawing.Size(47, 16);
-            this.lblMonkeyHealth1.TabIndex = 3;
-            this.lblMonkeyHealth1.Text = "Health: ";
-            // 
-            // lblMonkeyHealth2
-            // 
-            this.lblMonkeyHealth2.AutoSize = true;
-            this.lblMonkeyHealth2.Location = new System.Drawing.Point(83, 45);
-            this.lblMonkeyHealth2.Name = "lblMonkeyHealth2";
-            this.lblMonkeyHealth2.Size = new System.Drawing.Size(47, 16);
-            this.lblMonkeyHealth2.TabIndex = 4;
-            this.lblMonkeyHealth2.Text = "Health: ";
-            this.lblMonkeyHealth2.Click += new System.EventHandler(this.Label3_Click);
-            // 
-            // lblMonkeyHealth3
-            // 
-            this.lblMonkeyHealth3.AutoSize = true;
-            this.lblMonkeyHealth3.Location = new System.Drawing.Point(83, 45);
-            this.lblMonkeyHealth3.Name = "lblMonkeyHealth3";
-            this.lblMonkeyHealth3.Size = new System.Drawing.Size(47, 16);
-            this.lblMonkeyHealth3.TabIndex = 5;
-            this.lblMonkeyHealth3.Text = "Health: ";
-            // 
-            // lblMonkeyHealth4
-            // 
-            this.lblMonkeyHealth4.AutoSize = true;
-            this.lblMonkeyHealth4.Location = new System.Drawing.Point(83, 45);
-            this.lblMonkeyHealth4.Name = "lblMonkeyHealth4";
-            this.lblMonkeyHealth4.Size = new System.Drawing.Size(47, 16);
-            this.lblMonkeyHealth4.TabIndex = 6;
-            this.lblMonkeyHealth4.Text = "Health: ";
-            // 
-            // lblMonkeyHealth5
-            // 
-            this.lblMonkeyHealth5.AutoSize = true;
-            this.lblMonkeyHealth5.Location = new System.Drawing.Point(83, 45);
-            this.lblMonkeyHealth5.Name = "lblMonkeyHealth5";
-            this.lblMonkeyHealth5.Size = new System.Drawing.Size(47, 16);
-            this.lblMonkeyHealth5.TabIndex = 6;
-            this.lblMonkeyHealth5.Text = "Health: ";
-            // 
-            // lblElephantHealth1
-            // 
-            this.lblElephantHealth1.AutoSize = true;
-            this.lblElephantHealth1.Location = new System.Drawing.Point(87, 45);
-            this.lblElephantHealth1.Name = "lblElephantHealth1";
-            this.lblElephantHealth1.Size = new System.Drawing.Size(47, 16);
-            this.lblElephantHealth1.TabIndex = 6;
-            this.lblElephantHealth1.Text = "Health: ";
-            // 
-            // lblElephantHealth2
-            // 
-            this.lblElephantHealth2.AutoSize = true;
-            this.lblElephantHealth2.Location = new System.Drawing.Point(89, 45);
-            this.lblElephantHealth2.Name = "lblElephantHealth2";
-            this.lblElephantHealth2.Size = new System.Drawing.Size(47, 16);
-            this.lblElephantHealth2.TabIndex = 7;
-            this.lblElephantHealth2.Text = "Health: ";
-            // 
-            // lblElephantHealth3
-            // 
-            this.lblElephantHealth3.AutoSize = true;
-            this.lblElephantHealth3.Location = new System.Drawing.Point(89, 45);
-            this.lblElephantHealth3.Name = "lblElephantHealth3";
-            this.lblElephantHealth3.Size = new System.Drawing.Size(47, 16);
-            this.lblElephantHealth3.TabIndex = 7;
-            this.lblElephantHealth3.Text = "Health: ";
-            // 
-            // lblElephantHealth4
-            // 
-            this.lblElephantHealth4.AutoSize = true;
-            this.lblElephantHealth4.Location = new System.Drawing.Point(89, 45);
-            this.lblElephantHealth4.Name = "lblElephantHealth4";
-            this.lblElephantHealth4.Size = new System.Drawing.Size(47, 16);
-            this.lblElephantHealth4.TabIndex = 7;
-            this.lblElephantHealth4.Text = "Health: ";
-            // 
-            // lblElephantHealth5
-            // 
-            this.lblElephantHealth5.AutoSize = true;
-            this.lblElephantHealth5.Location = new System.Drawing.Point(89, 45);
-            this.lblElephantHealth5.Name = "lblElephantHealth5";
-            this.lblElephantHealth5.Size = new System.Drawing.Size(47, 16);
-            this.lblElephantHealth5.TabIndex = 7;
-            this.lblElephantHealth5.Text = "Health: ";
-            // 
-            // lblGiraffeHealth1
-            // 
-            this.lblGiraffeHealth1.AutoSize = true;
-            this.lblGiraffeHealth1.Location = new System.Drawing.Point(83, 45);
-            this.lblGiraffeHealth1.Name = "lblGiraffeHealth1";
-            this.lblGiraffeHealth1.Size = new System.Drawing.Size(47, 16);
-            this.lblGiraffeHealth1.TabIndex = 7;
-            this.lblGiraffeHealth1.Text = "Health: ";
-            // 
-            // lblGiraffeHealth2
-            // 
-            this.lblGiraffeHealth2.AutoSize = true;
-            this.lblGiraffeHealth2.Location = new System.Drawing.Point(83, 45);
-            this.lblGiraffeHealth2.Name = "lblGiraffeHealth2";
-            this.lblGiraffeHealth2.Size = new System.Drawing.Size(47, 16);
-            this.lblGiraffeHealth2.TabIndex = 7;
-            this.lblGiraffeHealth2.Text = "Health: ";
-            // 
-            // lblGiraffeHealth3
-            // 
-            this.lblGiraffeHealth3.AutoSize = true;
-            this.lblGiraffeHealth3.Location = new System.Drawing.Point(83, 45);
-            this.lblGiraffeHealth3.Name = "lblGiraffeHealth3";
-            this.lblGiraffeHealth3.Size = new System.Drawing.Size(47, 16);
-            this.lblGiraffeHealth3.TabIndex = 7;
-            this.lblGiraffeHealth3.Text = "Health: ";
-            // 
-            // lblGiraffeHealth4
-            // 
-            this.lblGiraffeHealth4.AutoSize = true;
-            this.lblGiraffeHealth4.Location = new System.Drawing.Point(83, 45);
-            this.lblGiraffeHealth4.Name = "lblGiraffeHealth4";
-            this.lblGiraffeHealth4.Size = new System.Drawing.Size(47, 16);
-            this.lblGiraffeHealth4.TabIndex = 7;
-            this.lblGiraffeHealth4.Text = "Health: ";
-            // 
-            // lblGiraffeHealth5
-            // 
-            this.lblGiraffeHealth5.AutoSize = true;
-            this.lblGiraffeHealth5.Location = new System.Drawing.Point(83, 45);
-            this.lblGiraffeHealth5.Name = "lblGiraffeHealth5";
-            this.lblGiraffeHealth5.Size = new System.Drawing.Size(47, 16);
-            this.lblGiraffeHealth5.TabIndex = 7;
-            this.lblGiraffeHealth5.Text = "Health: ";
             // 
             // frmZooSimulator
             // 
@@ -1288,21 +1108,6 @@
         private System.Windows.Forms.Label lblMonkey1;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Timer tmrSimulationTimer;
-        private System.Windows.Forms.Button btnFeedMonkey1;
-        private System.Windows.Forms.Button btnFeedGiraffe5;
-        private System.Windows.Forms.Button btnFeedGiraffe4;
-        private System.Windows.Forms.Button btnFeedGiraffe3;
-        private System.Windows.Forms.Button btnFeedGiraffe2;
-        private System.Windows.Forms.Button btnFeedGiraffe1;
-        private System.Windows.Forms.Button btnFeedElephant5;
-        private System.Windows.Forms.Button btnFeedElephant4;
-        private System.Windows.Forms.Button btnFeedElephant3;
-        private System.Windows.Forms.Button btnFeedElephant2;
-        private System.Windows.Forms.Button btnFeedElephant1;
-        private System.Windows.Forms.Button btnFeedMonkey5;
-        private System.Windows.Forms.Button btnFeedMonkey4;
-        private System.Windows.Forms.Button btnFeedMonkey3;
-        private System.Windows.Forms.Button btnFeedMonkey2;
         private System.Windows.Forms.Label lblMonkeyStatus2;
         private System.Windows.Forms.Label lblMonkeyStatus1;
         private System.Windows.Forms.Label lblGiraffeStatus5;
