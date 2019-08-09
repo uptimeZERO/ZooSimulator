@@ -70,6 +70,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\AnimalStatus.cs" />
+    <Compile Include="Enums\AnimalType.cs" />
+    <Compile Include="Extensions\EnumExtensions.cs" />
     <Compile Include="frmZooSimulator.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +80,12 @@
       <DependentUpon>frmZooSimulator.cs</DependentUpon>
     </Compile>
     <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Extensions\PercentageExtensions.cs" />
+    <Compile Include="Models\BaseAnimal.cs" />
+    <Compile Include="Models\Elephant.cs" />
+    <Compile Include="Models\Giraffe.cs" />
+    <Compile Include="Models\Monkey.cs" />
+    <Compile Include="Models\Zoo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmZooSimulator.resx">
