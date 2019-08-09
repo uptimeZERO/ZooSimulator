@@ -27,7 +27,7 @@ namespace Zoo_Simulator.Models
         /// <param name="gameTimeLabel">The <see cref="Label"/> for the game time.</param>
         public Zoo(Label gameTimeLabel)
         {
-            _hoursTicks = 18;
+            _hoursTicks = 0;
             _statusTicks = 0;
             _gameTimeLabel = gameTimeLabel
                 ?? throw new ArgumentNullException(nameof(_gameTimeLabel), "Cannot be null");
