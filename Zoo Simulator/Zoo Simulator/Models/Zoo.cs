@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows.Forms;
 using Zoo_Simulator.Enums;
 using Zoo_Simulator.Extensions;
@@ -118,17 +119,44 @@ namespace Zoo_Simulator.Models
                 var elephantFood = _random.Next(10, 25);
                 var giraffeFood = _random.Next(10, 25);
 
-                _monkeys.ForEach(x => x.Eat(monkeyFood));
-                _elephants.ForEach(x => x.Eat(elephantFood));
-                _giraffes.ForEach(x => x.Eat(giraffeFood));
+                _monkeys
+                    .Where(x => !x.IsDead)
+                    .ToList()
+                    .ForEach(x => x.Eat(monkeyFood));
+                _elephants
+                    .Where(x => !x.IsDead)
+                    .ToList()
+                    .ForEach(x => x.Eat(elephantFood));
+                _giraffes
+                    .Where(x => !x.IsDead)
+                    .ToList()
+                    .ForEach(x => x.Eat(giraffeFood));
 
-                _monkeys.ForEach(x => x.StatusString = AnimalStatus.Eating.GetString());
-                _elephants.ForEach(x => x.StatusString = AnimalStatus.Eating.GetString());
-                _giraffes.ForEach(x => x.StatusString = AnimalStatus.Eating.GetString());
+                _monkeys
+                    .Where(x => !x.IsDead)
+                    .ToList()
+                    .ForEach(x => x.StatusString = AnimalStatus.Eating.GetString());
+                _elephants
+                    .Where(x => !x.IsDead)
+                    .ToList()
+                    .ForEach(x => x.StatusString = AnimalStatus.Eating.GetString());
+                _giraffes
+                    .Where(x => !x.IsDead)
+                    .ToList()
+                    .ForEach(x => x.StatusString = AnimalStatus.Eating.GetString());
 
-                _monkeys.ForEach(x => x.Status = AnimalStatus.Eating);
-                _elephants.ForEach(x => x.Status = AnimalStatus.Eating);
-                _giraffes.ForEach(x => x.Status = AnimalStatus.Eating);
+                _monkeys
+                    .Where(x => !x.IsDead)
+                    .ToList()
+                    .ForEach(x => x.Status = AnimalStatus.Eating);
+                _elephants
+                    .Where(x => !x.IsDead)
+                    .ToList()
+                    .ForEach(x => x.Status = AnimalStatus.Eating);
+                _giraffes
+                    .Where(x => !x.IsDead)
+                    .ToList()
+                    .ForEach(x => x.Status = AnimalStatus.Eating);
 
                 _statusTicks = 0;
             }
@@ -145,9 +173,18 @@ namespace Zoo_Simulator.Models
                 UpdateStatus();
                 TakeIdleDamage();
 
-                _monkeys.ForEach(x => x.TickUpdate());
-                _elephants.ForEach(x => x.TickUpdate());
-                _giraffes.ForEach(x => x.TickUpdate());
+                _monkeys
+                    .Where(x => !x.IsDead)
+                    .ToList()
+                    .ForEach(x => x.TickUpdate());
+                _elephants
+                    .Where(x => !x.IsDead)
+                    .ToList()
+                    .ForEach(x => x.TickUpdate());
+                _giraffes
+                    .Where(x => !x.IsDead)
+                    .ToList()
+                    .ForEach(x => x.TickUpdate());
                 _gameTimeLabel.Text = _gameTime.ToLongTimeString();
             }
         }
@@ -161,9 +198,18 @@ namespace Zoo_Simulator.Models
             if (_hoursTicks == 20)
             {
                 _hoursTicks = 0;
-                _monkeys.ForEach(x => x.TakeIdleDamage());
-                _elephants.ForEach(x => x.TakeIdleDamage());
-                _giraffes.ForEach(x => x.TakeIdleDamage());
+                _monkeys
+                    .Where(x => !x.IsDead)
+                    .ToList()
+                    .ForEach(x => x.TakeIdleDamage());
+                _elephants
+                    .Where(x => !x.IsDead)
+                    .ToList()
+                    .ForEach(x => x.TakeIdleDamage());
+                _giraffes
+                    .Where(x => !x.IsDead)
+                    .ToList()
+                    .ForEach(x => x.TakeIdleDamage());
             }
         }
 
@@ -177,9 +223,18 @@ namespace Zoo_Simulator.Models
                 _statusTicks++;
                 if (_statusTicks == 4)
                 {
-                    _monkeys.ForEach(x => x.UpdateStatus());
-                    _elephants.ForEach(x => x.UpdateStatus());
-                    _giraffes.ForEach(x => x.UpdateStatus());
+                    _monkeys
+                        .Where(x => !x.IsDead)
+                        .ToList()
+                        .ForEach(x => x.UpdateStatus());
+                    _elephants
+                        .Where(x => !x.IsDead)
+                        .ToList()
+                        .ForEach(x => x.UpdateStatus());
+                    _giraffes
+                        .Where(x => !x.IsDead)
+                        .ToList()
+                        .ForEach(x => x.UpdateStatus());
                     _statusTicks = 0;
                 }
             }
