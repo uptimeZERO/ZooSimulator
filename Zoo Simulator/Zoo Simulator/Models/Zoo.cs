@@ -4,6 +4,7 @@ using System.Linq;
 using System.Windows.Forms;
 using Zoo_Simulator.Enums;
 using Zoo_Simulator.Extensions;
+using Zoo_Simulator.Models.Interfaces;
 
 namespace Zoo_Simulator.Models
 {
@@ -15,9 +16,7 @@ namespace Zoo_Simulator.Models
         private static string _gameTimeDaysText = "Day: ";
         private DateTime _gameTime;
         private Label _gameTimeLabel;
-        private List<Monkey> _monkeys;
-        private List<Elephant> _elephants;
-        private List<Giraffe> _giraffes;
+        private List<IAnimal> _animals;
         private int _hoursTicks;
         private int _statusTicks;
         private Random _random;
@@ -34,9 +33,7 @@ namespace Zoo_Simulator.Models
                 ?? throw new ArgumentNullException(nameof(_gameTimeLabel), "Cannot be null");
 
             _gameTime = new DateTime(1970, 1, 1, 0, 0, 0);
-            _monkeys = new List<Monkey>();
-            _elephants = new List<Elephant>();
-            _giraffes = new List<Giraffe>();
+            _animals = new List<IAnimal>();
             _random = new Random();
         }
 
@@ -56,9 +53,9 @@ namespace Zoo_Simulator.Models
             switch (animalType)
             {
                 case AnimalType.Monkey:
-                    if (_monkeys.Count < 6)
+                    if (_animals.Count(x => x.Type == AnimalType.Monkey) < 6)
                     {
-                        _monkeys.Add(
+                        _animals.Add(
                             new Monkey(
                                 animalHealthBar,
                                 animalStatusLabel,
@@ -73,9 +70,9 @@ namespace Zoo_Simulator.Models
                     break;
 
                 case AnimalType.Elephant:
-                    if (_elephants.Count < 6)
+                    if (_animals.Count(x => x.Type == AnimalType.Elephant) < 6)
                     {
-                        _elephants.Add(
+                        _animals.Add(
                             new Elephant(
                                 animalHealthBar,
                                 animalStatusLabel,
@@ -90,9 +87,9 @@ namespace Zoo_Simulator.Models
                     break;
 
                 case AnimalType.Giraffe:
-                    if (_giraffes.Count < 6)
+                    if (_animals.Count(x => x.Type == AnimalType.Giraffe) < 6)
                     {
-                        _giraffes.Add(
+                        _animals.Add(
                             new Giraffe(
                                 animalHealthBar,
                                 animalStatusLabel,
@@ -119,41 +116,33 @@ namespace Zoo_Simulator.Models
                 var elephantFood = _random.Next(10, 25);
                 var giraffeFood = _random.Next(10, 25);
 
-                _monkeys
-                    .Where(x => !x.IsDead)
+                _animals
+                    .Where(x =>
+                        !x.IsDead &&
+                        x.Type == AnimalType.Monkey)
                     .ToList()
                     .ForEach(x => x.Eat(monkeyFood));
-                _elephants
-                    .Where(x => !x.IsDead)
+
+                _animals
+                    .Where(x =>
+                        !x.IsDead &&
+                        x.Type == AnimalType.Elephant)
                     .ToList()
                     .ForEach(x => x.Eat(elephantFood));
-                _giraffes
-                    .Where(x => !x.IsDead)
+
+                _animals
+                    .Where(x =>
+                        !x.IsDead &&
+                        x.Type == AnimalType.Giraffe)
                     .ToList()
                     .ForEach(x => x.Eat(giraffeFood));
 
-                _monkeys
-                    .Where(x => !x.IsDead)
-                    .ToList()
-                    .ForEach(x => x.StatusString = AnimalStatus.Eating.GetString());
-                _elephants
-                    .Where(x => !x.IsDead)
-                    .ToList()
-                    .ForEach(x => x.StatusString = AnimalStatus.Eating.GetString());
-                _giraffes
+                _animals
                     .Where(x => !x.IsDead)
                     .ToList()
                     .ForEach(x => x.StatusString = AnimalStatus.Eating.GetString());
 
-                _monkeys
-                    .Where(x => !x.IsDead)
-                    .ToList()
-                    .ForEach(x => x.Status = AnimalStatus.Eating);
-                _elephants
-                    .Where(x => !x.IsDead)
-                    .ToList()
-                    .ForEach(x => x.Status = AnimalStatus.Eating);
-                _giraffes
+                _animals
                     .Where(x => !x.IsDead)
                     .ToList()
                     .ForEach(x => x.Status = AnimalStatus.Eating);
@@ -173,15 +162,7 @@ namespace Zoo_Simulator.Models
                 UpdateStatus();
                 TakeIdleDamage();
 
-                _monkeys
-                    .Where(x => !x.IsDead)
-                    .ToList()
-                    .ForEach(x => x.TickUpdate());
-                _elephants
-                    .Where(x => !x.IsDead)
-                    .ToList()
-                    .ForEach(x => x.TickUpdate());
-                _giraffes
+                _animals
                     .Where(x => !x.IsDead)
                     .ToList()
                     .ForEach(x => x.TickUpdate());
@@ -198,15 +179,7 @@ namespace Zoo_Simulator.Models
             if (_hoursTicks == 20)
             {
                 _hoursTicks = 0;
-                _monkeys
-                    .Where(x => !x.IsDead)
-                    .ToList()
-                    .ForEach(x => x.TakeIdleDamage());
-                _elephants
-                    .Where(x => !x.IsDead)
-                    .ToList()
-                    .ForEach(x => x.TakeIdleDamage());
-                _giraffes
+                _animals
                     .Where(x => !x.IsDead)
                     .ToList()
                     .ForEach(x => x.TakeIdleDamage());
@@ -223,15 +196,7 @@ namespace Zoo_Simulator.Models
                 _statusTicks++;
                 if (_statusTicks == 4)
                 {
-                    _monkeys
-                        .Where(x => !x.IsDead)
-                        .ToList()
-                        .ForEach(x => x.UpdateStatus());
-                    _elephants
-                        .Where(x => !x.IsDead)
-                        .ToList()
-                        .ForEach(x => x.UpdateStatus());
-                    _giraffes
+                    _animals
                         .Where(x => !x.IsDead)
                         .ToList()
                         .ForEach(x => x.UpdateStatus());
@@ -246,9 +211,7 @@ namespace Zoo_Simulator.Models
         /// <returns>A value indicating whether all the animals in the <see cref="Zoo"/> are dead.</returns>
         private bool IsZooDead()
         {
-            return _monkeys.TrueForAll(x => x.IsDead)
-                && _elephants.TrueForAll(x => x.IsDead)
-                && _giraffes.TrueForAll(x => x.IsDead);
+            return _animals.TrueForAll(x => x.IsDead);
         }
     }
 }

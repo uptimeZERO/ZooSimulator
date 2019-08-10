@@ -40,6 +40,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Debug\Zoo Simulator.xml</DocumentationFile>
+    <NoWarn>SA1200;SA1602</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -84,6 +85,7 @@
     <Compile Include="Models\BaseAnimal.cs" />
     <Compile Include="Models\Elephant.cs" />
     <Compile Include="Models\Giraffe.cs" />
+    <Compile Include="Models\Interfaces\IAnimal.cs" />
     <Compile Include="Models\Monkey.cs" />
     <Compile Include="Models\Zoo.cs" />
     <Compile Include="Program.cs" />

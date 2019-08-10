@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using Zoo_Simulator.Enums;
 
 namespace Zoo_Simulator.Models
 {
@@ -32,5 +33,10 @@ namespace Zoo_Simulator.Models
         /// Gets the health capacity of the <see cref="Monkey"/>.
         /// </summary>
         public override double HealthCapacity => 700.0;
+
+        /// <summary>
+        /// Gets the type of animal.
+        /// </summary>
+        public override AnimalType Type => AnimalType.Monkey;
     }
 }

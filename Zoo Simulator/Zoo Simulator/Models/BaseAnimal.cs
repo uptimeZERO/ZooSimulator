@@ -2,13 +2,14 @@
 using System.Windows.Forms;
 using Zoo_Simulator.Enums;
 using Zoo_Simulator.Extensions;
+using Zoo_Simulator.Models.Interfaces;
 
 namespace Zoo_Simulator.Models
 {
     /// <summary>
     /// Base class for all animal objects.
     /// </summary>
-    public abstract class BaseAnimal
+    public abstract class BaseAnimal : IAnimal
     {
         private static string _healthLabelText = "Health: ";
         private static string _statusLabelText = "Status: ";
@@ -62,6 +63,11 @@ namespace Zoo_Simulator.Models
         /// Gets the health capacity of the <see cref="BaseAnimal"/>.
         /// </summary>
         public abstract double HealthCapacity { get; }
+
+        /// <summary>
+        /// Gets the type of <see cref="BaseAnimal"/>.
+        /// </summary>
+        public abstract AnimalType Type { get; }
 
         /// <summary>
         /// Gets or sets a value indicating whether the <see cref="BaseAnimal"/> is dead or not.
