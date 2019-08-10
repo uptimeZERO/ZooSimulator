@@ -47,6 +47,11 @@ namespace Zoo_Simulator.Models
         public override double HealthCapacity => 1000.0;
 
         /// <summary>
+        /// Gets the type of animal.
+        /// </summary>
+        public override AnimalType Type => AnimalType.Elephant;
+
+        /// <summary>
         /// Updates the <see cref="Elephant"/> and its UI components, called after each in-game tick.
         /// </summary>
         public override void TickUpdate()
