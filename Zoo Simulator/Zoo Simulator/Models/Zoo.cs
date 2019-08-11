@@ -46,7 +46,7 @@ namespace Zoo_Simulator.Models
         /// <param name="animalHealthLabel">The health <see cref="Label"/> of the animal.</param>
         public void AddAnimal(
             AnimalType animalType,
-            Label animalHealthBar,
+            ProgressBar animalHealthBar,
             Label animalStatusLabel,
             Label animalHealthLabel)
         {

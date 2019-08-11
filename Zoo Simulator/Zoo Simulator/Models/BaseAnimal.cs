@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 using Zoo_Simulator.Enums;
 using Zoo_Simulator.Extensions;
@@ -13,7 +14,7 @@ namespace Zoo_Simulator.Models
     {
         private static string _healthLabelText = "Health: ";
         private static string _statusLabelText = "Status: ";
-        private Label _healthBar;
+        private ProgressBar _healthBar;
         private Label _statusLabel;
         private Label _healthLabel;
         private Random _random;
@@ -26,7 +27,7 @@ namespace Zoo_Simulator.Models
         /// <param name="healthLabel">The health <see cref="Label"/> of the <see cref="BaseAnimal"/>.</param>
         /// <param name="random">The random number generator.</param>
         protected BaseAnimal(
-            Label healthBar,
+            ProgressBar healthBar,
             Label statusLabel,
             Label healthLabel,
             Random random)
@@ -88,7 +89,7 @@ namespace Zoo_Simulator.Models
         public void Die()
         {
             Health = 0;
-            _healthBar.Text = string.Empty;
+            _healthBar.Value = 0;
             _healthLabel.Text = $"{_healthLabelText}0";
             IsDead = true;
             Status = AnimalStatus.Dead;
@@ -102,8 +103,9 @@ namespace Zoo_Simulator.Models
         {
             if (!IsDead)
             {
-                _healthBar.Text = GetProgressBarString((int)((Health / HealthCapacity) * 100.0));
+                _healthBar.Value = (int)((Health / HealthCapacity) * 100.0);
                 _healthLabel.Text = $"{_healthLabelText}{Math.Round(Health, 2)}";
+
                 if (Health <= 0)
                 {
                     Die();
@@ -166,25 +168,12 @@ namespace Zoo_Simulator.Models
         }
 
         /// <summary>
-        /// Method for getting the progress bar string.
+        /// Method for current health percentage of the <see cref="IAnimal"/>.
         /// </summary>
-        /// <param name="value">The percentage (0-100) to set the progress bar string</param>
-        /// <returns>A progress bar string of the given percentage of the value.</returns>
-        private string GetProgressBarString(int value)
+        /// <returns>The current health percentage of the <see cref="IAnimal"/>.</returns>
+        private int GetHealthPercentage()
         {
-            if (value > 100 ||
-                value < 0)
-            {
-                throw new IndexOutOfRangeException("The value of the progress bar string must be between 0-100");
-            }
-
-            var returnResult = string.Empty;
-            for (int i = 0; i < value; i++)
-            {
-                returnResult = $"{returnResult}#";
-            }
-
-            return returnResult;
+            return (int)((Health / HealthCapacity) * 100.0);
         }
     }
 }

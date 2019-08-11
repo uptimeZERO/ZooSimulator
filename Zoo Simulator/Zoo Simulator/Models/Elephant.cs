@@ -18,7 +18,7 @@ namespace Zoo_Simulator.Models
         /// <param name="healthLabel">The health label of the <see cref="Elephant"/>.</param>
         /// <param name="random">The random number generator.</param>
         public Elephant(
-            Label healthBar,
+            ProgressBar healthBar,
             Label statusLabel,
             Label healthLabel,
             Random random)

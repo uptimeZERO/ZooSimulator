@@ -29,85 +29,69 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmZooSimulator));
             this.pbxLogo = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pnlSimulation = new System.Windows.Forms.Panel();
             this.pnlGiraffes = new System.Windows.Forms.Panel();
             this.pnlGiraffe5 = new System.Windows.Forms.Panel();
-            this.lblGiraffeHealthBar5 = new System.Windows.Forms.Label();
             this.lblGiraffeHealth5 = new System.Windows.Forms.Label();
             this.lblGiraffeStatus5 = new System.Windows.Forms.Label();
             this.lblGiraffe5 = new System.Windows.Forms.Label();
             this.pnlGiraffe4 = new System.Windows.Forms.Panel();
-            this.lblGiraffeHealthBar4 = new System.Windows.Forms.Label();
             this.lblGiraffeHealth4 = new System.Windows.Forms.Label();
             this.lblGiraffeStatus4 = new System.Windows.Forms.Label();
             this.lblGiraffe4 = new System.Windows.Forms.Label();
             this.pnlGiraffe3 = new System.Windows.Forms.Panel();
-            this.lblGiraffeHealthBar3 = new System.Windows.Forms.Label();
             this.lblGiraffeHealth3 = new System.Windows.Forms.Label();
             this.lblGiraffeStatus3 = new System.Windows.Forms.Label();
             this.lblGiraffe3 = new System.Windows.Forms.Label();
             this.pnlGiraffe2 = new System.Windows.Forms.Panel();
-            this.lblGiraffeHealthBar2 = new System.Windows.Forms.Label();
             this.lblGiraffeHealth2 = new System.Windows.Forms.Label();
             this.lblGiraffeStatus2 = new System.Windows.Forms.Label();
             this.lblGiraffe2 = new System.Windows.Forms.Label();
             this.pnlGiraffe1 = new System.Windows.Forms.Panel();
-            this.lblGiraffeHealthBar1 = new System.Windows.Forms.Label();
             this.lblGiraffeHealth1 = new System.Windows.Forms.Label();
             this.lblGiraffeStatus1 = new System.Windows.Forms.Label();
             this.lblGiraffe1 = new System.Windows.Forms.Label();
             this.pnlElephants = new System.Windows.Forms.Panel();
             this.pnlElephant5 = new System.Windows.Forms.Panel();
-            this.lblElephantHealthBar5 = new System.Windows.Forms.Label();
             this.lblElephantHealth5 = new System.Windows.Forms.Label();
             this.lblElephantStatus5 = new System.Windows.Forms.Label();
             this.lblElephant5 = new System.Windows.Forms.Label();
             this.pnlElephant4 = new System.Windows.Forms.Panel();
-            this.lblElephantHealthBar4 = new System.Windows.Forms.Label();
             this.lblElephantHealth4 = new System.Windows.Forms.Label();
             this.lblElephantStatus4 = new System.Windows.Forms.Label();
             this.lblElephant4 = new System.Windows.Forms.Label();
             this.pnlElephant3 = new System.Windows.Forms.Panel();
-            this.lblElephantHealthBar3 = new System.Windows.Forms.Label();
             this.lblElephantHealth3 = new System.Windows.Forms.Label();
             this.lblElephantStatus3 = new System.Windows.Forms.Label();
             this.lblElephant3 = new System.Windows.Forms.Label();
             this.pnlElephant2 = new System.Windows.Forms.Panel();
-            this.lblElephantHealthBar2 = new System.Windows.Forms.Label();
             this.lblElephantHealth2 = new System.Windows.Forms.Label();
             this.lblElephantStatus2 = new System.Windows.Forms.Label();
             this.lblElephant2 = new System.Windows.Forms.Label();
             this.pnlElephant1 = new System.Windows.Forms.Panel();
-            this.lblElephantHealthBar1 = new System.Windows.Forms.Label();
             this.lblElephantHealth1 = new System.Windows.Forms.Label();
             this.lblElephantStatus1 = new System.Windows.Forms.Label();
             this.lblElephant1 = new System.Windows.Forms.Label();
             this.pnlMonkeys = new System.Windows.Forms.Panel();
             this.pnlMonkey5 = new System.Windows.Forms.Panel();
-            this.lblMonkeyHealthBar5 = new System.Windows.Forms.Label();
             this.lblMonkeyHealth5 = new System.Windows.Forms.Label();
             this.lblMonkeyStatus5 = new System.Windows.Forms.Label();
             this.lblMonkey5 = new System.Windows.Forms.Label();
             this.pnlMonkey4 = new System.Windows.Forms.Panel();
-            this.lblMonkeyHealthBar4 = new System.Windows.Forms.Label();
             this.lblMonkeyHealth4 = new System.Windows.Forms.Label();
             this.lblMonkeyStatus4 = new System.Windows.Forms.Label();
             this.lblMonkey4 = new System.Windows.Forms.Label();
             this.pnlMonkey3 = new System.Windows.Forms.Panel();
-            this.lblMonkeyHealthBar3 = new System.Windows.Forms.Label();
             this.lblMonkeyHealth3 = new System.Windows.Forms.Label();
             this.lblMonkeyStatus3 = new System.Windows.Forms.Label();
             this.lblMonkey3 = new System.Windows.Forms.Label();
             this.pnlMonkey2 = new System.Windows.Forms.Panel();
-            this.lblMonkeyHealthBar2 = new System.Windows.Forms.Label();
             this.lblMonkeyHealth2 = new System.Windows.Forms.Label();
             this.lblMonkeyStatus2 = new System.Windows.Forms.Label();
             this.lblMonkey2 = new System.Windows.Forms.Label();
             this.pnlMonkey1 = new System.Windows.Forms.Panel();
-            this.lblMonkeyHealthBar1 = new System.Windows.Forms.Label();
             this.lblMonkeyHealth1 = new System.Windows.Forms.Label();
             this.lblMonkeyStatus1 = new System.Windows.Forms.Label();
             this.lblMonkey1 = new System.Windows.Forms.Label();
@@ -116,6 +100,21 @@
             this.label17 = new System.Windows.Forms.Label();
             this.tmrSimulationTimer = new System.Windows.Forms.Timer(this.components);
             this.btnFeedZoo = new System.Windows.Forms.Button();
+            this.pbrMonkey1 = new System.Windows.Forms.ProgressBar();
+            this.pbrMonkey2 = new System.Windows.Forms.ProgressBar();
+            this.pbrMonkey3 = new System.Windows.Forms.ProgressBar();
+            this.pbrMonkey4 = new System.Windows.Forms.ProgressBar();
+            this.pbrMonkey5 = new System.Windows.Forms.ProgressBar();
+            this.pbrElephant1 = new System.Windows.Forms.ProgressBar();
+            this.pbrElephant2 = new System.Windows.Forms.ProgressBar();
+            this.pbrElephant3 = new System.Windows.Forms.ProgressBar();
+            this.pbrElephant4 = new System.Windows.Forms.ProgressBar();
+            this.pbrElephant5 = new System.Windows.Forms.ProgressBar();
+            this.pbrGiraffe1 = new System.Windows.Forms.ProgressBar();
+            this.pbrGiraffe2 = new System.Windows.Forms.ProgressBar();
+            this.pbrGiraffe3 = new System.Windows.Forms.ProgressBar();
+            this.pbrGiraffe4 = new System.Windows.Forms.ProgressBar();
+            this.pbrGiraffe5 = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.pbxLogo)).BeginInit();
             this.pnlSimulation.SuspendLayout();
             this.pnlGiraffes.SuspendLayout();
@@ -140,7 +139,6 @@
             // 
             // pbxLogo
             // 
-            this.pbxLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbxLogo.Image")));
             this.pbxLogo.Location = new System.Drawing.Point(12, 12);
             this.pbxLogo.Name = "pbxLogo";
             this.pbxLogo.Size = new System.Drawing.Size(29, 31);
@@ -187,7 +185,7 @@
             // 
             this.pnlGiraffe5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.pnlGiraffe5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlGiraffe5.Controls.Add(this.lblGiraffeHealthBar5);
+            this.pnlGiraffe5.Controls.Add(this.pbrGiraffe5);
             this.pnlGiraffe5.Controls.Add(this.lblGiraffeHealth5);
             this.pnlGiraffe5.Controls.Add(this.lblGiraffeStatus5);
             this.pnlGiraffe5.Controls.Add(this.lblGiraffe5);
@@ -196,17 +194,6 @@
             this.pnlGiraffe5.Size = new System.Drawing.Size(245, 76);
             this.pnlGiraffe5.TabIndex = 2;
             this.pnlGiraffe5.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlGiraffe5_Paint);
-            // 
-            // lblGiraffeHealthBar5
-            // 
-            this.lblGiraffeHealthBar5.AutoSize = true;
-            this.lblGiraffeHealthBar5.Font = new System.Drawing.Font("Consolas", 2.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGiraffeHealthBar5.Location = new System.Drawing.Point(9, 60);
-            this.lblGiraffeHealthBar5.Name = "lblGiraffeHealthBar5";
-            this.lblGiraffeHealthBar5.Size = new System.Drawing.Size(223, 4);
-            this.lblGiraffeHealthBar5.TabIndex = 66;
-            this.lblGiraffeHealthBar5.Text = "#################################################################################" +
-    "#############################";
             // 
             // lblGiraffeHealth5
             // 
@@ -240,7 +227,7 @@
             // 
             this.pnlGiraffe4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.pnlGiraffe4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlGiraffe4.Controls.Add(this.lblGiraffeHealthBar4);
+            this.pnlGiraffe4.Controls.Add(this.pbrGiraffe4);
             this.pnlGiraffe4.Controls.Add(this.lblGiraffeHealth4);
             this.pnlGiraffe4.Controls.Add(this.lblGiraffeStatus4);
             this.pnlGiraffe4.Controls.Add(this.lblGiraffe4);
@@ -248,17 +235,6 @@
             this.pnlGiraffe4.Name = "pnlGiraffe4";
             this.pnlGiraffe4.Size = new System.Drawing.Size(245, 76);
             this.pnlGiraffe4.TabIndex = 2;
-            // 
-            // lblGiraffeHealthBar4
-            // 
-            this.lblGiraffeHealthBar4.AutoSize = true;
-            this.lblGiraffeHealthBar4.Font = new System.Drawing.Font("Consolas", 2.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGiraffeHealthBar4.Location = new System.Drawing.Point(11, 59);
-            this.lblGiraffeHealthBar4.Name = "lblGiraffeHealthBar4";
-            this.lblGiraffeHealthBar4.Size = new System.Drawing.Size(223, 4);
-            this.lblGiraffeHealthBar4.TabIndex = 64;
-            this.lblGiraffeHealthBar4.Text = "#################################################################################" +
-    "#############################";
             // 
             // lblGiraffeHealth4
             // 
@@ -292,7 +268,7 @@
             // 
             this.pnlGiraffe3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.pnlGiraffe3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlGiraffe3.Controls.Add(this.lblGiraffeHealthBar3);
+            this.pnlGiraffe3.Controls.Add(this.pbrGiraffe3);
             this.pnlGiraffe3.Controls.Add(this.lblGiraffeHealth3);
             this.pnlGiraffe3.Controls.Add(this.lblGiraffeStatus3);
             this.pnlGiraffe3.Controls.Add(this.lblGiraffe3);
@@ -300,17 +276,6 @@
             this.pnlGiraffe3.Name = "pnlGiraffe3";
             this.pnlGiraffe3.Size = new System.Drawing.Size(245, 76);
             this.pnlGiraffe3.TabIndex = 2;
-            // 
-            // lblGiraffeHealthBar3
-            // 
-            this.lblGiraffeHealthBar3.AutoSize = true;
-            this.lblGiraffeHealthBar3.Font = new System.Drawing.Font("Consolas", 2.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGiraffeHealthBar3.Location = new System.Drawing.Point(9, 61);
-            this.lblGiraffeHealthBar3.Name = "lblGiraffeHealthBar3";
-            this.lblGiraffeHealthBar3.Size = new System.Drawing.Size(223, 4);
-            this.lblGiraffeHealthBar3.TabIndex = 54;
-            this.lblGiraffeHealthBar3.Text = "#################################################################################" +
-    "#############################";
             // 
             // lblGiraffeHealth3
             // 
@@ -344,7 +309,7 @@
             // 
             this.pnlGiraffe2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.pnlGiraffe2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlGiraffe2.Controls.Add(this.lblGiraffeHealthBar2);
+            this.pnlGiraffe2.Controls.Add(this.pbrGiraffe2);
             this.pnlGiraffe2.Controls.Add(this.lblGiraffeHealth2);
             this.pnlGiraffe2.Controls.Add(this.lblGiraffeStatus2);
             this.pnlGiraffe2.Controls.Add(this.lblGiraffe2);
@@ -353,17 +318,6 @@
             this.pnlGiraffe2.Size = new System.Drawing.Size(245, 76);
             this.pnlGiraffe2.TabIndex = 2;
             this.pnlGiraffe2.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlGiraffe2_Paint);
-            // 
-            // lblGiraffeHealthBar2
-            // 
-            this.lblGiraffeHealthBar2.AutoSize = true;
-            this.lblGiraffeHealthBar2.Font = new System.Drawing.Font("Consolas", 2.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGiraffeHealthBar2.Location = new System.Drawing.Point(9, 61);
-            this.lblGiraffeHealthBar2.Name = "lblGiraffeHealthBar2";
-            this.lblGiraffeHealthBar2.Size = new System.Drawing.Size(223, 4);
-            this.lblGiraffeHealthBar2.TabIndex = 48;
-            this.lblGiraffeHealthBar2.Text = "#################################################################################" +
-    "#############################";
             // 
             // lblGiraffeHealth2
             // 
@@ -397,7 +351,7 @@
             // 
             this.pnlGiraffe1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.pnlGiraffe1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlGiraffe1.Controls.Add(this.lblGiraffeHealthBar1);
+            this.pnlGiraffe1.Controls.Add(this.pbrGiraffe1);
             this.pnlGiraffe1.Controls.Add(this.lblGiraffeHealth1);
             this.pnlGiraffe1.Controls.Add(this.lblGiraffeStatus1);
             this.pnlGiraffe1.Controls.Add(this.lblGiraffe1);
@@ -405,17 +359,6 @@
             this.pnlGiraffe1.Name = "pnlGiraffe1";
             this.pnlGiraffe1.Size = new System.Drawing.Size(245, 76);
             this.pnlGiraffe1.TabIndex = 2;
-            // 
-            // lblGiraffeHealthBar1
-            // 
-            this.lblGiraffeHealthBar1.AutoSize = true;
-            this.lblGiraffeHealthBar1.Font = new System.Drawing.Font("Consolas", 2.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGiraffeHealthBar1.Location = new System.Drawing.Point(10, 61);
-            this.lblGiraffeHealthBar1.Name = "lblGiraffeHealthBar1";
-            this.lblGiraffeHealthBar1.Size = new System.Drawing.Size(223, 4);
-            this.lblGiraffeHealthBar1.TabIndex = 42;
-            this.lblGiraffeHealthBar1.Text = "#################################################################################" +
-    "#############################";
             // 
             // lblGiraffeHealth1
             // 
@@ -463,7 +406,7 @@
             // 
             this.pnlElephant5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.pnlElephant5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlElephant5.Controls.Add(this.lblElephantHealthBar5);
+            this.pnlElephant5.Controls.Add(this.pbrElephant5);
             this.pnlElephant5.Controls.Add(this.lblElephantHealth5);
             this.pnlElephant5.Controls.Add(this.lblElephantStatus5);
             this.pnlElephant5.Controls.Add(this.lblElephant5);
@@ -471,17 +414,6 @@
             this.pnlElephant5.Name = "pnlElephant5";
             this.pnlElephant5.Size = new System.Drawing.Size(245, 76);
             this.pnlElephant5.TabIndex = 2;
-            // 
-            // lblElephantHealthBar5
-            // 
-            this.lblElephantHealthBar5.AutoSize = true;
-            this.lblElephantHealthBar5.Font = new System.Drawing.Font("Consolas", 2.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblElephantHealthBar5.Location = new System.Drawing.Point(11, 60);
-            this.lblElephantHealthBar5.Name = "lblElephantHealthBar5";
-            this.lblElephantHealthBar5.Size = new System.Drawing.Size(223, 4);
-            this.lblElephantHealthBar5.TabIndex = 36;
-            this.lblElephantHealthBar5.Text = "#################################################################################" +
-    "#############################";
             // 
             // lblElephantHealth5
             // 
@@ -514,7 +446,7 @@
             // 
             this.pnlElephant4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.pnlElephant4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlElephant4.Controls.Add(this.lblElephantHealthBar4);
+            this.pnlElephant4.Controls.Add(this.pbrElephant4);
             this.pnlElephant4.Controls.Add(this.lblElephantHealth4);
             this.pnlElephant4.Controls.Add(this.lblElephantStatus4);
             this.pnlElephant4.Controls.Add(this.lblElephant4);
@@ -522,17 +454,6 @@
             this.pnlElephant4.Name = "pnlElephant4";
             this.pnlElephant4.Size = new System.Drawing.Size(245, 76);
             this.pnlElephant4.TabIndex = 2;
-            // 
-            // lblElephantHealthBar4
-            // 
-            this.lblElephantHealthBar4.AutoSize = true;
-            this.lblElephantHealthBar4.Font = new System.Drawing.Font("Consolas", 2.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblElephantHealthBar4.Location = new System.Drawing.Point(11, 60);
-            this.lblElephantHealthBar4.Name = "lblElephantHealthBar4";
-            this.lblElephantHealthBar4.Size = new System.Drawing.Size(223, 4);
-            this.lblElephantHealthBar4.TabIndex = 30;
-            this.lblElephantHealthBar4.Text = "#################################################################################" +
-    "#############################";
             // 
             // lblElephantHealth4
             // 
@@ -565,7 +486,7 @@
             // 
             this.pnlElephant3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.pnlElephant3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlElephant3.Controls.Add(this.lblElephantHealthBar3);
+            this.pnlElephant3.Controls.Add(this.pbrElephant3);
             this.pnlElephant3.Controls.Add(this.lblElephantHealth3);
             this.pnlElephant3.Controls.Add(this.lblElephantStatus3);
             this.pnlElephant3.Controls.Add(this.lblElephant3);
@@ -573,17 +494,6 @@
             this.pnlElephant3.Name = "pnlElephant3";
             this.pnlElephant3.Size = new System.Drawing.Size(245, 76);
             this.pnlElephant3.TabIndex = 2;
-            // 
-            // lblElephantHealthBar3
-            // 
-            this.lblElephantHealthBar3.AutoSize = true;
-            this.lblElephantHealthBar3.Font = new System.Drawing.Font("Consolas", 2.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblElephantHealthBar3.Location = new System.Drawing.Point(11, 61);
-            this.lblElephantHealthBar3.Name = "lblElephantHealthBar3";
-            this.lblElephantHealthBar3.Size = new System.Drawing.Size(223, 4);
-            this.lblElephantHealthBar3.TabIndex = 24;
-            this.lblElephantHealthBar3.Text = "#################################################################################" +
-    "#############################";
             // 
             // lblElephantHealth3
             // 
@@ -616,7 +526,7 @@
             // 
             this.pnlElephant2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.pnlElephant2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlElephant2.Controls.Add(this.lblElephantHealthBar2);
+            this.pnlElephant2.Controls.Add(this.pbrElephant2);
             this.pnlElephant2.Controls.Add(this.lblElephantHealth2);
             this.pnlElephant2.Controls.Add(this.lblElephantStatus2);
             this.pnlElephant2.Controls.Add(this.lblElephant2);
@@ -624,17 +534,6 @@
             this.pnlElephant2.Name = "pnlElephant2";
             this.pnlElephant2.Size = new System.Drawing.Size(245, 76);
             this.pnlElephant2.TabIndex = 2;
-            // 
-            // lblElephantHealthBar2
-            // 
-            this.lblElephantHealthBar2.AutoSize = true;
-            this.lblElephantHealthBar2.Font = new System.Drawing.Font("Consolas", 2.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblElephantHealthBar2.Location = new System.Drawing.Point(11, 60);
-            this.lblElephantHealthBar2.Name = "lblElephantHealthBar2";
-            this.lblElephantHealthBar2.Size = new System.Drawing.Size(223, 4);
-            this.lblElephantHealthBar2.TabIndex = 22;
-            this.lblElephantHealthBar2.Text = "#################################################################################" +
-    "#############################";
             // 
             // lblElephantHealth2
             // 
@@ -667,7 +566,7 @@
             // 
             this.pnlElephant1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.pnlElephant1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlElephant1.Controls.Add(this.lblElephantHealthBar1);
+            this.pnlElephant1.Controls.Add(this.pbrElephant1);
             this.pnlElephant1.Controls.Add(this.lblElephantHealth1);
             this.pnlElephant1.Controls.Add(this.lblElephantStatus1);
             this.pnlElephant1.Controls.Add(this.lblElephant1);
@@ -675,17 +574,6 @@
             this.pnlElephant1.Name = "pnlElephant1";
             this.pnlElephant1.Size = new System.Drawing.Size(245, 76);
             this.pnlElephant1.TabIndex = 1;
-            // 
-            // lblElephantHealthBar1
-            // 
-            this.lblElephantHealthBar1.AutoSize = true;
-            this.lblElephantHealthBar1.Font = new System.Drawing.Font("Consolas", 2.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblElephantHealthBar1.Location = new System.Drawing.Point(11, 61);
-            this.lblElephantHealthBar1.Name = "lblElephantHealthBar1";
-            this.lblElephantHealthBar1.Size = new System.Drawing.Size(223, 4);
-            this.lblElephantHealthBar1.TabIndex = 12;
-            this.lblElephantHealthBar1.Text = "#################################################################################" +
-    "#############################";
             // 
             // lblElephantHealth1
             // 
@@ -732,7 +620,7 @@
             // 
             this.pnlMonkey5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.pnlMonkey5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlMonkey5.Controls.Add(this.lblMonkeyHealthBar5);
+            this.pnlMonkey5.Controls.Add(this.pbrMonkey5);
             this.pnlMonkey5.Controls.Add(this.lblMonkeyHealth5);
             this.pnlMonkey5.Controls.Add(this.lblMonkeyStatus5);
             this.pnlMonkey5.Controls.Add(this.lblMonkey5);
@@ -740,17 +628,6 @@
             this.pnlMonkey5.Name = "pnlMonkey5";
             this.pnlMonkey5.Size = new System.Drawing.Size(245, 76);
             this.pnlMonkey5.TabIndex = 1;
-            // 
-            // lblMonkeyHealthBar5
-            // 
-            this.lblMonkeyHealthBar5.AutoSize = true;
-            this.lblMonkeyHealthBar5.Font = new System.Drawing.Font("Consolas", 2.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMonkeyHealthBar5.Location = new System.Drawing.Point(9, 60);
-            this.lblMonkeyHealthBar5.Name = "lblMonkeyHealthBar5";
-            this.lblMonkeyHealthBar5.Size = new System.Drawing.Size(223, 4);
-            this.lblMonkeyHealthBar5.TabIndex = 11;
-            this.lblMonkeyHealthBar5.Text = "#################################################################################" +
-    "#############################";
             // 
             // lblMonkeyHealth5
             // 
@@ -783,7 +660,7 @@
             // 
             this.pnlMonkey4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.pnlMonkey4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlMonkey4.Controls.Add(this.lblMonkeyHealthBar4);
+            this.pnlMonkey4.Controls.Add(this.pbrMonkey4);
             this.pnlMonkey4.Controls.Add(this.lblMonkeyHealth4);
             this.pnlMonkey4.Controls.Add(this.lblMonkeyStatus4);
             this.pnlMonkey4.Controls.Add(this.lblMonkey4);
@@ -791,17 +668,6 @@
             this.pnlMonkey4.Name = "pnlMonkey4";
             this.pnlMonkey4.Size = new System.Drawing.Size(245, 76);
             this.pnlMonkey4.TabIndex = 2;
-            // 
-            // lblMonkeyHealthBar4
-            // 
-            this.lblMonkeyHealthBar4.AutoSize = true;
-            this.lblMonkeyHealthBar4.Font = new System.Drawing.Font("Consolas", 2.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMonkeyHealthBar4.Location = new System.Drawing.Point(9, 60);
-            this.lblMonkeyHealthBar4.Name = "lblMonkeyHealthBar4";
-            this.lblMonkeyHealthBar4.Size = new System.Drawing.Size(223, 4);
-            this.lblMonkeyHealthBar4.TabIndex = 9;
-            this.lblMonkeyHealthBar4.Text = "#################################################################################" +
-    "#############################";
             // 
             // lblMonkeyHealth4
             // 
@@ -834,7 +700,7 @@
             // 
             this.pnlMonkey3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.pnlMonkey3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlMonkey3.Controls.Add(this.lblMonkeyHealthBar3);
+            this.pnlMonkey3.Controls.Add(this.pbrMonkey3);
             this.pnlMonkey3.Controls.Add(this.lblMonkeyHealth3);
             this.pnlMonkey3.Controls.Add(this.lblMonkeyStatus3);
             this.pnlMonkey3.Controls.Add(this.lblMonkey3);
@@ -843,17 +709,6 @@
             this.pnlMonkey3.Size = new System.Drawing.Size(245, 76);
             this.pnlMonkey3.TabIndex = 1;
             this.pnlMonkey3.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlMonkey3_Paint);
-            // 
-            // lblMonkeyHealthBar3
-            // 
-            this.lblMonkeyHealthBar3.AutoSize = true;
-            this.lblMonkeyHealthBar3.Font = new System.Drawing.Font("Consolas", 2.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMonkeyHealthBar3.Location = new System.Drawing.Point(9, 61);
-            this.lblMonkeyHealthBar3.Name = "lblMonkeyHealthBar3";
-            this.lblMonkeyHealthBar3.Size = new System.Drawing.Size(223, 4);
-            this.lblMonkeyHealthBar3.TabIndex = 7;
-            this.lblMonkeyHealthBar3.Text = "#################################################################################" +
-    "#############################";
             // 
             // lblMonkeyHealth3
             // 
@@ -886,7 +741,7 @@
             // 
             this.pnlMonkey2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.pnlMonkey2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlMonkey2.Controls.Add(this.lblMonkeyHealthBar2);
+            this.pnlMonkey2.Controls.Add(this.pbrMonkey2);
             this.pnlMonkey2.Controls.Add(this.lblMonkeyHealth2);
             this.pnlMonkey2.Controls.Add(this.lblMonkeyStatus2);
             this.pnlMonkey2.Controls.Add(this.lblMonkey2);
@@ -894,17 +749,6 @@
             this.pnlMonkey2.Name = "pnlMonkey2";
             this.pnlMonkey2.Size = new System.Drawing.Size(245, 76);
             this.pnlMonkey2.TabIndex = 1;
-            // 
-            // lblMonkeyHealthBar2
-            // 
-            this.lblMonkeyHealthBar2.AutoSize = true;
-            this.lblMonkeyHealthBar2.Font = new System.Drawing.Font("Consolas", 2.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMonkeyHealthBar2.Location = new System.Drawing.Point(9, 61);
-            this.lblMonkeyHealthBar2.Name = "lblMonkeyHealthBar2";
-            this.lblMonkeyHealthBar2.Size = new System.Drawing.Size(223, 4);
-            this.lblMonkeyHealthBar2.TabIndex = 5;
-            this.lblMonkeyHealthBar2.Text = "#################################################################################" +
-    "#############################";
             // 
             // lblMonkeyHealth2
             // 
@@ -938,7 +782,7 @@
             // 
             this.pnlMonkey1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.pnlMonkey1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlMonkey1.Controls.Add(this.lblMonkeyHealthBar1);
+            this.pnlMonkey1.Controls.Add(this.pbrMonkey1);
             this.pnlMonkey1.Controls.Add(this.lblMonkeyHealth1);
             this.pnlMonkey1.Controls.Add(this.lblMonkeyStatus1);
             this.pnlMonkey1.Controls.Add(this.lblMonkey1);
@@ -946,17 +790,6 @@
             this.pnlMonkey1.Name = "pnlMonkey1";
             this.pnlMonkey1.Size = new System.Drawing.Size(245, 76);
             this.pnlMonkey1.TabIndex = 0;
-            // 
-            // lblMonkeyHealthBar1
-            // 
-            this.lblMonkeyHealthBar1.AutoSize = true;
-            this.lblMonkeyHealthBar1.Font = new System.Drawing.Font("Consolas", 2.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMonkeyHealthBar1.Location = new System.Drawing.Point(9, 61);
-            this.lblMonkeyHealthBar1.Name = "lblMonkeyHealthBar1";
-            this.lblMonkeyHealthBar1.Size = new System.Drawing.Size(223, 4);
-            this.lblMonkeyHealthBar1.TabIndex = 4;
-            this.lblMonkeyHealthBar1.Text = "#################################################################################" +
-    "#############################";
             // 
             // lblMonkeyHealth1
             // 
@@ -1030,6 +863,126 @@
             this.btnFeedZoo.UseVisualStyleBackColor = false;
             this.btnFeedZoo.Click += new System.EventHandler(this.BtnFeedZoo_Click);
             // 
+            // pbrMonkey1
+            // 
+            this.pbrMonkey1.Location = new System.Drawing.Point(3, 48);
+            this.pbrMonkey1.Name = "pbrMonkey1";
+            this.pbrMonkey1.Size = new System.Drawing.Size(237, 23);
+            this.pbrMonkey1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pbrMonkey1.TabIndex = 7;
+            // 
+            // pbrMonkey2
+            // 
+            this.pbrMonkey2.Location = new System.Drawing.Point(3, 48);
+            this.pbrMonkey2.Name = "pbrMonkey2";
+            this.pbrMonkey2.Size = new System.Drawing.Size(237, 23);
+            this.pbrMonkey2.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pbrMonkey2.TabIndex = 8;
+            // 
+            // pbrMonkey3
+            // 
+            this.pbrMonkey3.Location = new System.Drawing.Point(3, 48);
+            this.pbrMonkey3.Name = "pbrMonkey3";
+            this.pbrMonkey3.Size = new System.Drawing.Size(237, 23);
+            this.pbrMonkey3.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pbrMonkey3.TabIndex = 9;
+            // 
+            // pbrMonkey4
+            // 
+            this.pbrMonkey4.Location = new System.Drawing.Point(3, 48);
+            this.pbrMonkey4.Name = "pbrMonkey4";
+            this.pbrMonkey4.Size = new System.Drawing.Size(237, 23);
+            this.pbrMonkey4.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pbrMonkey4.TabIndex = 10;
+            // 
+            // pbrMonkey5
+            // 
+            this.pbrMonkey5.Location = new System.Drawing.Point(3, 48);
+            this.pbrMonkey5.Name = "pbrMonkey5";
+            this.pbrMonkey5.Size = new System.Drawing.Size(237, 23);
+            this.pbrMonkey5.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pbrMonkey5.TabIndex = 11;
+            // 
+            // pbrElephant1
+            // 
+            this.pbrElephant1.Location = new System.Drawing.Point(3, 48);
+            this.pbrElephant1.Name = "pbrElephant1";
+            this.pbrElephant1.Size = new System.Drawing.Size(237, 23);
+            this.pbrElephant1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pbrElephant1.TabIndex = 12;
+            // 
+            // pbrElephant2
+            // 
+            this.pbrElephant2.Location = new System.Drawing.Point(3, 48);
+            this.pbrElephant2.Name = "pbrElephant2";
+            this.pbrElephant2.Size = new System.Drawing.Size(237, 23);
+            this.pbrElephant2.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pbrElephant2.TabIndex = 13;
+            // 
+            // pbrElephant3
+            // 
+            this.pbrElephant3.Location = new System.Drawing.Point(3, 48);
+            this.pbrElephant3.Name = "pbrElephant3";
+            this.pbrElephant3.Size = new System.Drawing.Size(237, 23);
+            this.pbrElephant3.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pbrElephant3.TabIndex = 14;
+            // 
+            // pbrElephant4
+            // 
+            this.pbrElephant4.Location = new System.Drawing.Point(3, 48);
+            this.pbrElephant4.Name = "pbrElephant4";
+            this.pbrElephant4.Size = new System.Drawing.Size(237, 23);
+            this.pbrElephant4.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pbrElephant4.TabIndex = 15;
+            // 
+            // pbrElephant5
+            // 
+            this.pbrElephant5.Location = new System.Drawing.Point(3, 48);
+            this.pbrElephant5.Name = "pbrElephant5";
+            this.pbrElephant5.Size = new System.Drawing.Size(237, 23);
+            this.pbrElephant5.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pbrElephant5.TabIndex = 16;
+            // 
+            // pbrGiraffe1
+            // 
+            this.pbrGiraffe1.Location = new System.Drawing.Point(3, 48);
+            this.pbrGiraffe1.Name = "pbrGiraffe1";
+            this.pbrGiraffe1.Size = new System.Drawing.Size(237, 23);
+            this.pbrGiraffe1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pbrGiraffe1.TabIndex = 17;
+            // 
+            // pbrGiraffe2
+            // 
+            this.pbrGiraffe2.Location = new System.Drawing.Point(3, 48);
+            this.pbrGiraffe2.Name = "pbrGiraffe2";
+            this.pbrGiraffe2.Size = new System.Drawing.Size(237, 23);
+            this.pbrGiraffe2.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pbrGiraffe2.TabIndex = 18;
+            // 
+            // pbrGiraffe3
+            // 
+            this.pbrGiraffe3.Location = new System.Drawing.Point(3, 48);
+            this.pbrGiraffe3.Name = "pbrGiraffe3";
+            this.pbrGiraffe3.Size = new System.Drawing.Size(237, 23);
+            this.pbrGiraffe3.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pbrGiraffe3.TabIndex = 19;
+            // 
+            // pbrGiraffe4
+            // 
+            this.pbrGiraffe4.Location = new System.Drawing.Point(3, 48);
+            this.pbrGiraffe4.Name = "pbrGiraffe4";
+            this.pbrGiraffe4.Size = new System.Drawing.Size(237, 23);
+            this.pbrGiraffe4.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pbrGiraffe4.TabIndex = 20;
+            // 
+            // pbrGiraffe5
+            // 
+            this.pbrGiraffe5.Location = new System.Drawing.Point(3, 48);
+            this.pbrGiraffe5.Name = "pbrGiraffe5";
+            this.pbrGiraffe5.Size = new System.Drawing.Size(237, 23);
+            this.pbrGiraffe5.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pbrGiraffe5.TabIndex = 21;
+            // 
             // frmZooSimulator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 16F);
@@ -1046,7 +999,6 @@
             this.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.DeepPink;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "frmZooSimulator";
@@ -1166,21 +1118,21 @@
         private System.Windows.Forms.Label lblGiraffeHealth2;
         private System.Windows.Forms.Label lblGiraffeHealth5;
         private System.Windows.Forms.Button btnFeedZoo;
-        private System.Windows.Forms.Label lblGiraffeHealthBar5;
-        private System.Windows.Forms.Label lblGiraffeHealthBar4;
-        private System.Windows.Forms.Label lblGiraffeHealthBar3;
-        private System.Windows.Forms.Label lblGiraffeHealthBar2;
-        private System.Windows.Forms.Label lblGiraffeHealthBar1;
-        private System.Windows.Forms.Label lblElephantHealthBar5;
-        private System.Windows.Forms.Label lblElephantHealthBar4;
-        private System.Windows.Forms.Label lblElephantHealthBar3;
-        private System.Windows.Forms.Label lblElephantHealthBar2;
-        private System.Windows.Forms.Label lblElephantHealthBar1;
-        private System.Windows.Forms.Label lblMonkeyHealthBar5;
-        private System.Windows.Forms.Label lblMonkeyHealthBar4;
-        private System.Windows.Forms.Label lblMonkeyHealthBar3;
-        private System.Windows.Forms.Label lblMonkeyHealthBar2;
-        private System.Windows.Forms.Label lblMonkeyHealthBar1;
+        private System.Windows.Forms.ProgressBar pbrGiraffe5;
+        private System.Windows.Forms.ProgressBar pbrGiraffe4;
+        private System.Windows.Forms.ProgressBar pbrGiraffe3;
+        private System.Windows.Forms.ProgressBar pbrGiraffe2;
+        private System.Windows.Forms.ProgressBar pbrGiraffe1;
+        private System.Windows.Forms.ProgressBar pbrElephant5;
+        private System.Windows.Forms.ProgressBar pbrElephant4;
+        private System.Windows.Forms.ProgressBar pbrElephant3;
+        private System.Windows.Forms.ProgressBar pbrElephant2;
+        private System.Windows.Forms.ProgressBar pbrElephant1;
+        private System.Windows.Forms.ProgressBar pbrMonkey5;
+        private System.Windows.Forms.ProgressBar pbrMonkey4;
+        private System.Windows.Forms.ProgressBar pbrMonkey3;
+        private System.Windows.Forms.ProgressBar pbrMonkey2;
+        private System.Windows.Forms.ProgressBar pbrMonkey1;
     }
 }
 

@@ -17,7 +17,7 @@ namespace Zoo_Simulator.Models
         /// <param name="healthLabel">The health label of the <see cref="Monkey"/>.</param>
         /// <param name="random">The random number generator.</param>
         public Monkey(
-            Label healthBar,
+            ProgressBar healthBar,
             Label statusLabel,
             Label healthLabel,
             Random random)
